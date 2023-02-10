@@ -5,22 +5,22 @@ import { FaUserFriends } from "react-icons/fa";
 import React from "react";
 const data = [
   {
-    cardIcon: <FaUserFriends size={60} color="#D7F205" />,
+    cardIcon: <FaUserFriends size={50} color="#D7F205" />,
     cardTitle: "Friendly Team",
     cardDesc: "Aenean pharetra erat in nisl blandit hendrerit integer.",
   },
   {
-    cardIcon: <FaUserFriends size={60} color="#D7F205" />,
+    cardIcon: <FaUserFriends size={50} color="#D7F205" />,
     cardTitle: "Friendly Team",
     cardDesc: "Aenean pharetra erat in nisl blandit hendrerit integer.",
   },
   {
-    cardIcon: <FaUserFriends size={60} color="#D7F205" />,
+    cardIcon: <FaUserFriends size={50} color="#D7F205" />,
     cardTitle: "Friendly Team",
     cardDesc: "Aenean pharetra erat in nisl blandit hendrerit integer.",
   },
   {
-    cardIcon: <FaUserFriends size={60} color="#D7F205" />,
+    cardIcon: <FaUserFriends size={50} color="#D7F205" />,
     cardTitle: "Friendly Team",
     cardDesc: "Aenean pharetra erat in nisl blandit hendrerit integer.",
   },

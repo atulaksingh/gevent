@@ -6,7 +6,7 @@ import Image from "next/image";
 function AboutTeamCard() {
   return (
   <>
-        <div className="bg-black text-white     ">
+        <div className="bg-black text-white    py-14 ">
     <div className=" relative md:border-t-2 border-white">
           <div className=" container m-auto ">
             {/* <div className="relative -mt-32">
@@ -46,7 +46,7 @@ function AboutTeamCard() {
                 />
               </div>
             </div> */}
-        <div className='-mt-32  grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center'>
+        <div className='-mt-32  grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center mx-5'>
         <div className='col-span-1'>
         <div className=" bg-black border border-white justify-center lg:py-5">
             <div className="text-center ">

@@ -6,18 +6,18 @@ function Portfolio(props) {
       <div className="container m-auto">
         <div>
           <div className="py-10 text-center">
-            <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
+            <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
              {props.title}
             </div>
-            <h1 className="text-[2rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4.2rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white ">
+            <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white  ">
             {props.titleHead}
             </h1>
-            <div className="text-gray-300 font-semibold md:text-lg lg:text-xl mx-3 sm:mx-10 lg:mx-24 md:py-5 lg:py-10">
+            <div className="text-sm text-gray-300 sm:text-lg py-3 lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 lg:py-10 ">
              {props.desc}
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-12 ">
+        <div className="grid grid-cols-12 mx-5">
           <div className="col-span-12 sm:col-span-6 lg:col-span-4 border border-white p-2">
             <div className="relative h-[350px]">
               <Image
@@ -59,7 +59,7 @@ function Portfolio(props) {
           </div>
           {/* <div className="colspan-1"></div> */}
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 mx-5">
         <div className="col-span-1  p-2">
             <div className="relative h-[350px]">
               <Image

@@ -2,20 +2,47 @@ import React from "react";
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
+// const headData = [
+//   <Link  href={"/"}>Home</Link>,
+//   <Link  href={"/about"}>About Us</Link>,
+//   <Link  href={"/service"}>Service</Link>,
+//   <Link  href={"/portfolio"}>Portfolio</Link>,
+//   <Link  href={"/pages"}>Pages</Link>,
+//   <Link  href={"/contactUs"}>Contact Us</Link>,
+//   <BiSearch  size={25} />,
+// ];
 const headData = [
-  <Link key={index} href={"/"}>Home</Link>,
-  <Link key={index} href={"/about"}>About Us</Link>,
-  <Link key={index} href={"/service"}>Service</Link>,
-  <Link key={index} href={"/portfolio"}>Portfolio</Link>,
-  <Link key={index} href={"/pages"}>Pages</Link>,
-  <Link key={index} href={"/contactUs"}>Contact Us</Link>,
-  <BiSearch key={index} size={25} />,
+  {
+    name:'Home',
+    link:'/'
+  },
+  {
+    name:'About Us',
+    link:'/about'
+  },
+  {
+    name:'Service',
+    link:'/service'
+  },
+  {
+    name:'Portfolio',
+    link:'/portfolio'
+  },
+  {
+    name:'Contact Us',
+    link:'/contactUs'
+  },
+  {
+    name:<BiSearch  size={25} />,
+    link:'/'
+  }
+ 
 ];
 function Header() {
   return (
     <>
       <div className="bg-black text-white ">
-        <div className="container m-auto">
+        <div className="z-500 container m-auto">
           <div className="flex justify-between">
             <div className="relative h-20 w-52 ">
               <Image
@@ -33,9 +60,8 @@ function Header() {
 
             <div className="flex my-auto justify-start gap-10">
               {headData.map((item, index) => (
-                <div key={index
-                } className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205]">
-                  {item}
+                <div key={index} className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205]">
+                 <Link href={item.link}>{item.name}</Link>
                 </div>
 
               ))}

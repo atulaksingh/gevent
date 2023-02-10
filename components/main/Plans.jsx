@@ -3,14 +3,14 @@ import Image from "next/image";
 function Plans() {
   return (
     <div className="bg-black text-white">
-      <div className="container m-auto py-40">
+      <div className="container m-auto py-40 ">
         <div className="">
           <div>
             <div className="py-10 text-center">
-              <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
+              <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
                 PRICING PLAN
               </div>
-              <h1 className="text-[2rem] leading-[40px] sm:text-[3rem] md:text-[4rem] lg:text-[4.5rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white">
+              <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[4rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white ">
                 Choose Your Event Package
               </h1>
               <div className="text-gray-300 font-semibold md:text-lg lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 lg:py-10 ">
@@ -21,7 +21,7 @@ function Plans() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-5">
             <div className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl ">Birthday Party</div>
               <div className="py-3 text-lg text-gray-300">Start From</div>
@@ -30,7 +30,7 @@ function Plans() {
                 <div className="text-[50px] font-bold ">149</div>
               </div>
               <div className="flex py-1 justify-center">
-                <div className="h-6 w-6 stroke-[#D7F205] my-auto">
+                <div className="h-5 w-5 stroke-[#D7F205] my-auto">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ionicon"
@@ -44,7 +44,7 @@ function Plans() {
                     ></path>
                   </svg>
                 </div>
-                <div className="my-auto font-bold text-lg text-gray-400 font-[Hind] cursor-pointer hover:text-[#D7F205]">
+                <div className="my-auto font-bold text-base text-gray-400 font-[Hind] cursor-pointer hover:text-[#D7F205]">
                   5 Hours
                 </div>
               </div>

@@ -6,10 +6,10 @@ function contactUs() {
   return (
 
     <div>
-    {/* <Layout> */}
+    <Layout>
 
       <ContactUs />
-    {/* </Layout> */}
+    </Layout>
     </div>
   )
 }

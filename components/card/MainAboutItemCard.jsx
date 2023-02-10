@@ -6,7 +6,7 @@ function MainAboutItemCard() {
        <div className="grid grid-cols-2 mr-16">
                   <div className="col-span-2 md:col-span-1">
                     <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -20,12 +20,12 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205] w-full">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
                     <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -39,12 +39,12 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205] w-full">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
                     <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -58,14 +58,14 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205] w-full">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
                   </div>
                   <div className="col-span-2 md:col-span-1">
-                    <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                  <div className="flex py-1">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -79,12 +79,12 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto w-full font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205]">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
                     <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -98,12 +98,12 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205] w-full">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
                     <div className="flex py-1">
-                      <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                      <div className="h-5 w-5 sm:h-8 sm:w-8 stroke-[#D7F205] my-auto">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="ionicon"
@@ -117,7 +117,7 @@ function MainAboutItemCard() {
                           ></path>
                         </svg>
                       </div>
-                      <div className="my-auto font-bold text-lg font-[Hind] cursor-pointer hover:text-[#D7F205] w-full">
+                      <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
                         Provide Best Quality Events
                       </div>
                     </div>
