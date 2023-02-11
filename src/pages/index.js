@@ -15,6 +15,7 @@ import MainService from 'components/main/MainService'
 import MainPortfolio from 'components/main/MainPortfolio'
 import Layout from 'components/layouts/Layout'
 import BgImage3 from 'components/card/BgImage3'
+import SmNavbar from 'components/card/SmNavbar'
 
 
 
@@ -26,7 +27,7 @@ export default function Home() {
       <main className={styles.main}>
    
        <Hero />
-       <AboutTeamCard />
+        <AboutTeamCard />
        <MainAbout  />
        <Exprience />
        <MainService />
@@ -42,8 +43,8 @@ export default function Home() {
         </div>
        <Testimonial />
        <Plans />
-       <Blog />
-     
+       <Blog /> 
+     {/* <SmNavbar /> */}
       </main>
       </Layout>
     </>

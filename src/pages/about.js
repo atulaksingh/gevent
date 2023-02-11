@@ -1,9 +1,10 @@
+import React from 'react';
+import  { useState, useEffect } from 'react';
 import Exprience from "components/card/Exprience";
-import About from "components/card/About";
+import CardAbout from "components/card/About";
 import Events from "components/card/Events";
 import Logo from "components/main/Logo";
 import Service from "components/card/Service";
-import React from "react";
 import MainAboutItemCard from "components/card/MainAboutItemCard";
 import EventCardItem from "components/card/EventCardItem";
 import { FaUserFriends } from "react-icons/fa";
@@ -12,6 +13,7 @@ import BgImage3 from "components/card/BgImage3";
 import Team from "components/AboutCard/Team";
 import MainHeadingCard from "components/card/MainHeadingCard";
 import Layout from "components/layouts/Layout";
+import AOS from 'aos';
 const data = [
   {
     cardIcon: <FaUserFriends size={60} color="#D7F205" />,
@@ -72,17 +74,12 @@ const serviceCardData = [
       "Nunc lacus odio, hendrerit id hendrerit ut, pretium eget nunc. Mauris dignissim libero elementum egestas.",
   },
 ];
-const imgstyle = {
-  backgroundImage:
-    "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1675667922/concert-audience-PG2VFZFa_qxrj6o.webp)",
-  height: "100vh",
-  width: "100vw",
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundAttachment: "fixed",
-  backgroundPosition: "center",
-};
-function about() {
+
+function About() {
+  useEffect(() => {
+    AOS.init();
+    
+  }, [])
   return (
     <>
     <Layout>
@@ -97,7 +94,7 @@ function about() {
          
           <div className="">
             <div>
-              <About
+              <CardAbout
                 title="ABOUT GEVENT"
                 titleHead="Make Your Event Idea Come True"
                 desc="Cras porttitor urna eu metus efficitur, a tempus ligula vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris dolor, interdum id vestibulum et pharetra ac libero. Etiam vestibulum in mi sit amet."
@@ -157,4 +154,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

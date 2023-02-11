@@ -22,7 +22,7 @@ function Plans() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-5">
-            <div className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl ">Birthday Party</div>
               <div className="py-3 text-lg text-gray-300">Start From</div>
               <div className="flex justify-center text-[#D7F205]">
@@ -149,7 +149,7 @@ function Plans() {
                 </button>
               </div>
             </div>
-            <div className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl ">Birthday Party</div>
               <div className="py-3 text-lg text-gray-300">Start From</div>
               <div className="flex justify-center text-[#D7F205]">
@@ -276,7 +276,7 @@ function Plans() {
                 </button>
               </div>
             </div>
-            <div className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl ">Birthday Party</div>
               <div className="py-3 text-lg text-gray-300">Start From</div>
               <div className="flex justify-center text-[#D7F205]">
@@ -403,7 +403,7 @@ function Plans() {
                 </button>
               </div>
             </div>
-            <div className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl ">Birthday Party</div>
               <div className="py-3 text-lg text-gray-300">Start From</div>
               <div className="flex justify-center text-[#D7F205]">

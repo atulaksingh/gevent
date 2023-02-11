@@ -9,7 +9,7 @@ function Logo() {
 
           <div className=" border-2 border-white py-5 lg:py-8 mx-5 lg:mx-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-2 bg-black ">
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={
@@ -22,7 +22,7 @@ function Logo() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={
@@ -35,7 +35,7 @@ function Logo() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={
@@ -48,7 +48,7 @@ function Logo() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={
@@ -61,7 +61,7 @@ function Logo() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={
@@ -74,7 +74,7 @@ function Logo() {
                   />
                 </div>
               </div>
-              <div className="col-span-1 m-auto">
+              <div data-aos="zoom-in" className="col-span-1 m-auto">
                 <div className="relative h-10 w-52 lg:h-16 ">
                   <Image
                     src={

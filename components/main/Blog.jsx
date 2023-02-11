@@ -7,8 +7,14 @@ function Blog() {
     <div className="bg-black text-white border-t-2 border-white py-16 lg:py-28 ">
       <div className="container m-auto">
         <div className="grid grid-cols-12 gap-5 mx-5">
-          <div className="col-span-12 lg:col-span-7 mx-3 md:mx-0 lg:order-none border border-[#D7F205] ">
-            <div className=" relative top-12 right-3 md:right-5 lg:right-11 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div  data-aos="fade-right"
+                //  data-aos-anchor="#example-anchor"
+                data-aos-offset="120"
+                data-aos-duration="1000" className="col-span-12 lg:col-span-7 mx-3 md:mx-0 lg:order-none border border-[#D7F205] ">
+            <div  data-aos="fade-right"
+                //  data-aos-anchor="#example-anchor"
+                data-aos-offset="120"
+                data-aos-duration="1000" className="  relative top-12 right-3 md:right-5 lg:right-11 grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="col-span-1 border-2 border-white bg-black  md:ml-0">
                 <div className="relative h-64">
                   <Image
@@ -125,7 +131,7 @@ function Blog() {
               </div>
 
               <div className="py-10">
-                <button className=" px-6 py-3 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button  data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className=" px-6 py-3 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
                   VIEW ALL
                 </button>
               </div>

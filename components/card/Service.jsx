@@ -20,7 +20,8 @@ function Service(props) {
           <div className="grid grid-cols-3 gap-8">
           {
             props.card.map((item,index)=>(
-              <div key={index} className="col-span-3 lg:col-span-1 mx-5 sm:mx-0">
+              <div key={index} className="col-span-3 lg:col-span-1 mx-5 sm:mx-0" data-aos-offset="300"  data-aos="fade-up"  data-aos-once="false"
+     data-aos-duration="1000">
             <ServiceIconCard
              icon={
                     item.icon

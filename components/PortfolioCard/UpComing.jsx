@@ -61,7 +61,8 @@ function UpComing() {
           {
             UpComingData.map((item,index)=>(
 
-            <div key={index
+            <div data-aos-offset="300"  data-aos="fade-up"  data-aos-once="false"
+     data-aos-duration="1000" key={index
             } className="relative col-span-1 border border-[#D7F205] bg-black mx-10 lg:mx-0">
               <div className="relative w-[93%] right-2 top-5 border border-white bg-black">
                 <div className="relative h-60 ">

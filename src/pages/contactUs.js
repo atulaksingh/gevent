@@ -1,17 +1,22 @@
-import ContactUs from 'components/ContactUsCard/ContactUs'
-import Layout from 'components/layouts/Layout'
 import React from 'react'
+import CardContactUs from 'components/ContactUsCard/ContactUs'
+import Layout from 'components/layouts/Layout'
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
+function ContactUs() {
+  useEffect(() => {
+  AOS.init();
+}, [])
 
-function contactUs() {
   return (
 
     <div>
     <Layout>
 
-      <ContactUs />
+      <CardContactUs />
     </Layout>
     </div>
   )
 }
 
-export default contactUs
+export default ContactUs

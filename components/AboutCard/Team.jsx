@@ -33,7 +33,13 @@ function Team() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 pb-20">
             {teamData.map((item, index) => (
-              <div key={index} className=" col-span-1 border border-[#D7F205] mx-8 sm:mx-10 lg:mx-0">
+              <div
+                data-aos-offset="300"
+                data-aos="fade-up"  data-aos-once="false"
+                data-aos-duration="1000"
+                key={index}
+                className=" col-span-1 border border-[#D7F205] mx-8 sm:mx-10 lg:mx-0"
+              >
                 <div className="relative right-4 md:right-7 top-5 md:top-10 h-96 w-full border border-white">
                   <Image
                     src={item.img}
@@ -47,15 +53,14 @@ function Team() {
             ))}
           </div>
 
-          
           <div className="py-10 text-center">
-                  <button className=" p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
-                  VIEW ALL TEAM
-                  </button>
-                </div>
-
-
-
+            <button
+             
+              className=" p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]"
+            >
+              VIEW ALL TEAM
+            </button>
+          </div>
         </div>
       </div>
     </>

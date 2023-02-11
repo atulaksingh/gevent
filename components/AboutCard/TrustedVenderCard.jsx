@@ -5,7 +5,7 @@ function TrustedVenderCard(props) {
     <>
       <div className="grid grid-rows-4 sm:gap-5">
       {props.data.map((item,index)=>(
-        <div key={index} className=" sm:row-span-1">
+        <div data-aos="fade-right" key={index} className=" sm:row-span-1">
         <div className="flex flex-col sm:flex-row">
         <div className="text-[40px] md:text-[55px]  font-[Syne] sm:text-right font-bold">{item.number}</div>
           <div className="mx-0 sm:mx-10">

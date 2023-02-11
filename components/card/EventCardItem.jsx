@@ -8,7 +8,9 @@ function EventCardItem(props) {
         {
             props.data.map((item,index)=>(
                 <div key={index
-                } className="col-span-2 md:col-span-1">
+                } className="col-span-2 md:col-span-1"  data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-offset="100">
                 <div className="flex gap-4 md:gap-5 py-1">
                   <div>
                    {item.cardIcon}

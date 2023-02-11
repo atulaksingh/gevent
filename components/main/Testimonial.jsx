@@ -24,7 +24,13 @@ function Testimonial() {
                 dolor, interdum id vestibulum et pharetra ac libero. Etiam
                 vestibulum in mi sit amet.
               </div>
-              <div className="relative   bg-black   border border-white p-5 lg:p-10 z-20">
+              <div
+                data-aos="fade-right"
+                //  data-aos-anchor="#example-anchor"
+                data-aos-offset="120"
+                data-aos-duration="1000"
+                className="relative   bg-black   border border-white p-5 lg:p-10 z-20"
+              >
                 <div className="flex pb-8">
                   <AiFillStar color="yellow" size={20} />
                   <AiFillStar color="yellow" size={20} />
@@ -49,7 +55,6 @@ function Testimonial() {
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                     
                       fill="none"
                       className="w-[40px] h-[52px] md:w-[50px] md:h-[62px] my-auto"
                       viewBox="0 0 65 52"
@@ -64,7 +69,13 @@ function Testimonial() {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 lg:col-span-1 order-1 lg:order-2 mx-5 md:mx-10 lg:mx-0">
+            <div
+              data-aos="fade-left"
+              //  data-aos-anchor="#example-anchor"
+              data-aos-offset="100"
+              data-aos-duration="1000"
+              className="col-span-2 lg:col-span-1 order-1 lg:order-2 mx-5 md:mx-10 lg:mx-0"
+            >
               <div className="   md:mx-0 border border-[#D7F205] h-full w-full  lg:h-[850px] lg:w-[610px] ">
                 <div className="relative  top-4 right-2 md:top-14  md:right-10 lg:right-20 h-[300px]  sm:h-[700px]  md:h-[800px] md:w-[700px] lg:h-[800px] lg:w-[650px]">
                   <Image

@@ -9,7 +9,9 @@ function ContactCard() {
             <div className="text-[#D7F205] font-bold tracking-[5px] ">
               CONTACT US
             </div>
-            <h1 className="text-[30px] sm:text-[50px] md:text-[60px] w-full font-semibold ">Get In Touch</h1>
+            <h1 className="text-[30px] sm:text-[50px] md:text-[60px] w-full font-semibold ">
+              Get In Touch
+            </h1>
             <div className="text-sm text-gray-300  py-3 lg:w-[80%]">
               Cras porttitor urna eu metus efficitur, a tempus ligula vehicula.
               Donec ornare pharetra metus nec vehicula. Etiam mauris dolor,
@@ -72,7 +74,12 @@ function ContactCard() {
             <div>
               <div className="text-2xl">Follow Us On</div>
               <div className="border-t-4 border-[#D7F205] w-40 my-3"></div>
-              <div className="flex gap-4 justify-start my-5">
+              <div
+                data-aos-offset="300"
+                data-aos="fade-up"  data-aos-once="false"
+                data-aos-duration="1000"
+                className="flex gap-4 justify-start my-5"
+              >
                 <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +119,12 @@ function ContactCard() {
               </div>
             </div>
           </div>
-          <div className="col-span-1  ">
+          <div
+            data-aos-offset="300"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className="col-span-1  "
+          >
             <div className=" border border-[#D7F205] text-center p-5 py-20">
               <div className="text-left mx-10 text-2xl my-4">
                 Send A Message

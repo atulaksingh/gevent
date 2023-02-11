@@ -2,13 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  font-family: 'Syne', sans-serif;
-  /* font-family: 'Hind', sans-serif; */
-/* font-family: 'Inter', sans-serif; */
-/* background-image: url("/https://res.cloudinary.com/dt0j68vdr/image/upload/v1675667922/concert-audience-PG2VFZFa_qxrj6o.webp");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover; */
-/* background-image: url("'/https://res.cloudinary.com/dt0j68vdr/image/upload/v1675667922/concert-audience-PG2VFZFa_qxrj6o.webp"); */
+/* .header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 58px;
+  border-bottom: 1px solid red;
+  padding: 0 50px;
 }
+.manu {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  cursor: pointer;
+}
+.manu_container {
+  position: relative;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  height: 50px;
+  overflow: hidden;
+  font-size: 18px;
+  text-transform: uppercase;
+ margin-top: 1vw;
+}
+.btn_close{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  background-color: #fff;
+  color: black;
+  border-radius: 58px;
+  position: absolute;
+  top: 5%;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 35px;
+
+
+} */
