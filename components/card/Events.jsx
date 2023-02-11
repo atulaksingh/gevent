@@ -17,7 +17,7 @@ function Events(props) {
               >
             <div
               data-aos="fade-right"
-              data-aos-offset="300"
+              // data-aos-offset="300"
               data-aos-duration="500"
               data-aos-easing="ease-in-sine"
               className="relative z-10 border border-[#D7F205] h-full w-full  m-auto"

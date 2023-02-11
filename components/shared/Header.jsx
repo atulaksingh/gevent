@@ -83,7 +83,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="container block lg:hidden">
+      {/* <div className="container block lg:hidden">
         <header>
           <div className="menu">
             <i className="fa fa-bars"></i>
@@ -97,7 +97,7 @@ function Header() {
           <a href="">Home</a>
           <a href="">Home</a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

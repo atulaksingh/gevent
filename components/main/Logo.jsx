@@ -10,7 +10,7 @@ function Logo() {
           <div className=" border-2 border-white py-5 lg:py-8 mx-5 lg:mx-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-2 bg-black ">
               <div data-aos="zoom-in" className="col-span-1 m-auto">
-                <div className="relative h-10 w-52 lg:h-16 ">
+                <div className="relative h-10 w-52 lg:h-16 fill-white">
                   <Image
                     src={
                       "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675679251/lipsum3_hhfial.png"
