@@ -3,13 +3,13 @@ import React from "react";
 function TrustedVenderCard(props) {
   return (
     <>
-      <div className="grid grid-rows-4 gap-5">
+      <div className="grid grid-rows-4 sm:gap-5">
       {props.data.map((item,index)=>(
-        <div key={index} className="row-span-1">
-        <div className="flex ">
-        <div className="text-[50px] text-right">{item.number}</div>
-          <div className="mx-10">
-            <div className="text-2xl mt-3 text-[#D7F205]">{item.title}</div>
+        <div key={index} className=" sm:row-span-1">
+        <div className="flex flex-col sm:flex-row">
+        <div className="text-[40px] md:text-[55px]  font-[Syne] sm:text-right font-bold">{item.number}</div>
+          <div className="mx-0 sm:mx-10">
+            <div className="text-lg md:text-2xl mt-3 font-bold text-[#D7F205] font-[Syne]">{item.title}</div>
             <div className="text-base text-gray-300">
               {item.desc}
             </div>
@@ -19,19 +19,7 @@ function TrustedVenderCard(props) {
         </div>
       ))}
      
-        {/* <div className="row-span-1">
-        <div className="flex ">
-        <div className="text-[50px] text-right">01</div>
-          <div className="mx-10">
-            <div className="text-2xl mt-3 text-[#D7F205]">Explain The Concept</div>
-            <div className="text-base text-gray-300">
-              Nunc quis consequat urna, a rhoncus lectus. Ut aliquam id sem quis
-              rutrum. Donec lacinia id lectus quis posuere.
-            </div>
-          </div>
-        </div>
-          
-        </div> */}
+  
       </div>
     </>
   );

@@ -19,7 +19,7 @@ function About(props) {
                 <div className="text-[#D7F205] font-bold tracking-[5px]">
                  {props.title}
                 </div>
-                <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne]">
+                <h1 className="text-[28px] text-white leading-10 sm:leading-[60px] sm:text-[50px] md:text-[69px] font-medium font-[Syne] py-4">
                   {props.titleHead}
                 </h1>
                 <div className="text-sm text-gray-300 sm:text-lg py-3">
@@ -31,12 +31,12 @@ function About(props) {
                 </div>
 
                 <div className="py-10">
-                  <button className=" p-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                  <button className="p-3 md:p-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
                   {props.buttonTitle}
                   </button>
                 </div>
               </div>
-              <div className="col-span-2 lg:col-span-1 order-1 lg:order-2 box-content   m-auto">
+              <div className="col-span-2 lg:col-span-1 order-1 lg:order-2 box-content   m-auto ">
                 <div className="relative z-10 border border-[#D7F205]
                h-[490px] w-[350px] sm:h-[550px] sm:w-[600px]
                  md:h-[600px] md:w-[690px] lg:h-[600px] lg:w-[610px] sm:mx-12 lg:ml-10 box-content">

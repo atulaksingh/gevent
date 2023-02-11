@@ -17,7 +17,7 @@ function Team() {
     <>
       <div className="bg-black py-20">
         <div className="container m-auto">
-          <div className="py-10 text-center">
+          <div className="py-10 text-center mx-5">
             <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
               OUR TEAM
             </div>

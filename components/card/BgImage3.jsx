@@ -13,7 +13,7 @@ function BgImage3(props) {
   return (
     <>
       <div
-        class=" bg-fixed w-full lg:h-80 bg-no-repeat bg-cover bg-left "
+        class=" bg-fixed w-full lg:h-96 bg-no-repeat bg-cover bg-left "
         style={{
           backgroundImage:
             "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1676032137/people-at-the-concert-SKPN7UV_zzbbpd.webp)",

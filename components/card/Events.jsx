@@ -4,7 +4,7 @@ import Image from "next/image";
 function Events(props) {
   return (
     <div className="bg-black text-white border-t-2 border-white">
-      <div className="py-20">
+      <div className="py-10 md:py-40">
         <div className="grid grid-cols-2  gap-2 ">
           <div className="col-span-2 lg:col-span-1 mx-10 md:mx-16">
             <div className="relative z-10 border border-[#D7F205] h-full w-full  m-auto">
@@ -41,7 +41,7 @@ function Events(props) {
             <div className="text-[#D7F205] font-bold tracking-[5px]">
               {props.title}
             </div>
-            <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne]">
+            <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] py-4">
             {props.titleHead}
             </h1>
             <div className="text-sm text-gray-300 sm:text-lg py-3">

@@ -109,7 +109,7 @@ function about() {
               />
             </div>
           </div>
-          <div>
+          <div className="">
             <Logo />
             {/* <Events /> */}
           </div>

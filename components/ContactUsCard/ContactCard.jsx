@@ -119,12 +119,12 @@ function ContactCard() {
               </div>
               <form>
                 <input
-                  className="w-[42%] bg-transparent p-3 border decoration-white mx-2"
+                  className="w-[87%] my-5 md:w-[42%] bg-transparent p-3 border decoration-white mx-2"
                   placeholder="First Name"
                   type="text"
                 />
                 <input
-                  className="w-[42%] bg-transparent p-3 border decoration-white mx-2"
+                  className="w-[87%] md:w-[42%] bg-transparent p-3 border decoration-white mx-2"
                   placeholder="Last Name"
                   type="text"
                 />

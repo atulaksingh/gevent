@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Logo() {
   return (
-    <div className="bg-black text-white  lg:pt-52">
+    <div className="bg-black text-white py-10  lg:pt-52">
       <div className="relative  lg:border-t-2 border-white">
         <div className="container m-auto">
         <div className="relative lg:bottom-[70px]">

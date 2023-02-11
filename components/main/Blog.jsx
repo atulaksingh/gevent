@@ -6,7 +6,7 @@ function Blog() {
   return (
     <div className="bg-black text-white border-t-2 border-white py-16 lg:py-28 ">
       <div className="container m-auto">
-        <div className="grid grid-cols-12 gap-5">
+        <div className="grid grid-cols-12 gap-5 mx-5">
           <div className="col-span-12 lg:col-span-7 mx-3 md:mx-0 lg:order-none border border-[#D7F205] ">
             <div className=" relative top-12 right-3 md:right-5 lg:right-11 grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="col-span-1 border-2 border-white bg-black  md:ml-0">
@@ -117,7 +117,7 @@ function Blog() {
               <h1 className="text-[30px] sm:text-[50px] md:text-[60px] w-full font-bold font-[Hind]">
                 Our Latest News
               </h1>
-              <div className="text-lg text-gray-300 font-semibold py-3">
+              <div className="text-base text-gray-300 font-semibold py-3">
                 Cras porttitor urna eu metus efficitur, a tempus ligula
                 vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris
                 dolor, interdum id vestibulum et pharetra ac libero. Etiam

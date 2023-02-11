@@ -14,7 +14,7 @@ function Footer() {
           <div className=" border-t-2 border-white  text-white">
             <div className="container m-auto  ">
               <div className="text-center py-20">
-                <div className="text-2xl my-10">
+                <div className="text-2xl font-[Syne] my-10">
                   Subscribe to Our Newsletter
                 </div>
                 <div className="">
@@ -39,7 +39,7 @@ function Footer() {
                     alt="logo img"
                   />
                 </div>
-                <div className="text-lg text-gray-300 w-80 m-auto">
+                <div className= "text-base md:text-lg text-gray-300 w-80 m-auto">
                   Aenean pharetra erat in nisl blandit. Nullam gravida enim
                   curae elementum.
                 </div>
@@ -85,7 +85,7 @@ function Footer() {
             </div>
           </div>
           <div className="container m-auto border-t-2 border-white  text-white">
-            <div className="text-[Inter] py-5 text-lg text-gray-300 text-center">
+            <div className="text-[Syner] py-5 text-base md:text-lg text-gray-300 text-center mx-5">
               Copyright 2022 © All Right Reserved Design by Rometheme
             </div>
           </div>

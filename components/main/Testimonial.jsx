@@ -14,7 +14,7 @@ function Testimonial() {
               <div className="text-[#D7F205] font-bold tracking-[5px]">
                 TESTIMONIAL
               </div>
-              <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] ">
+              <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] py-4">
                 Experience <br />
                 They Have
               </h1>
