@@ -1,8 +1,13 @@
+import React from 'react'
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
 import Layout from 'components/layouts/Layout'
 import MainServices from 'components/ServiceCard/MainServices'
-import React from 'react'
 
-function service() {
+function Service() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
    <>
     <div>
@@ -15,4 +20,4 @@ function service() {
   )
 }
 
-export default service
+export default Service
