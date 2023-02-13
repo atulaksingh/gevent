@@ -14,10 +14,10 @@ function About(props) {
   const [counterOn,setCounterOn] = useState(false)
   return (
     <>
-      <div className="bg-black text-white  h-full w-full overflow-hidden py-32">
+      <div className="bg-black text-white  h-full w-full  py-32">
         <div className="container m-auto ">
-          <div className="">
-            <div className="grid grid-cols-2 gap-20 lg:gap-2 mx-5 lg:mx-0">
+          <div className="overflow-hidden">
+            <div className="grid grid-cols-2 gap-20 lg:gap-2 mx-5 lg:mx-0 ">
               <div className="col-span-2 lg:col-span-1 py-24 order-2 lg:order-1">
                 <div className="text-[#D7F205] font-bold tracking-[5px]">
                   {props.title}

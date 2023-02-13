@@ -2,7 +2,14 @@ import React from "react";
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import Link from "next/link";
-import { useState } from "react";
+// const headData = [
+//   <Link  href={"/"}>Home</Link>,
+//   <Link  href={"/about"}>About Us</Link>,
+//   <Link  href={"/service"}>Service</Link>,
+//   <Link  href={"/portfolio"}>Portfolio</Link>,
+//   <Link  href={"/pages"}>Pages</Link>,
+//   <Link  href={"/contactUs"}>Contact Us</Link>,
+//   <BiSearch  size={25} />,
 // ];
 const headData = [
   {
@@ -32,10 +39,6 @@ const headData = [
  
 ];
 function Header() {
-  const [open, setopen] = useState(false)
-    const closeManu =()=>{
-        setopen(false)
-    }
   return (
     <>
       <div className="bg-black text-white ">
@@ -83,26 +86,25 @@ function Header() {
           </div>
         </div>
       </div>
-      {/* <div className="container block lg:hidden">
-        <header>
-          <div className="menu">
-            <i className="fa fa-bars"></i>
-          </div>
-        </header>
-        <div className="manu_container">
-        <div className="btn_close" onClick={closeManu}>x</div>
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-          <a href="">Home</a>
-        </div>
-      </div> */}
     </>
   );
 }
 {
-
+  /* <div className="h-12 w-12 fill-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="ionicon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                 
+                    strokeLinecap="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="32"
+                    d="M80 160h352M80 256h352M80 352h352"
+                  ></path>
+                </svg>
+              </div> */
 }
 
 export default Header;

@@ -9,7 +9,7 @@ function Testimonial() {
     <div className="bg-black text-white">
       <div className="container m-auto">
         <div className=" pt-40 lg:py-40">
-          <div className="grid grid-cols-2  gap-2">
+          <div className="grid grid-cols-2  gap-2 overflow-x-hidden">
             <div className="col-span-2 lg:col-span-1 order-2 lg:order-1 py-16 lg:py-24 mx-5">
               <div className="text-[#D7F205] font-bold tracking-[5px]">
                 TESTIMONIAL
