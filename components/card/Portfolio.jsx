@@ -66,7 +66,7 @@ function Portfolio(props) {
               />
             </div>
           </div>
-          {/* <div className="colspan-1"></div> */}
+        
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-5">
           <div
@@ -74,7 +74,7 @@ function Portfolio(props) {
             data-aos="fade-up"  data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-1  p-2"
-          >
+          > 
             <div className="relative h-[350px]">
               <Image
                 src={props.img4}

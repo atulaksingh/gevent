@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .header {
+.header {
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -12,13 +12,13 @@
 }
 .manu {
   width: 58px;
-  height: 58px;
+  height: 1px;
   display: flex;
   cursor: pointer;
 }
 .manu_container {
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 8%;
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -42,17 +42,19 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 58px;
-  height: 58px;
+  width: 48px;
+  height: 48px;
   background-color: #fff;
   color: black;
   border-radius: 58px;
   position: absolute;
-  top: 5%;
-  right: 20px;
+  top: 0;
+  right: 10px;
   z-index: 2;
   cursor: pointer;
   font-size: 35px;
+  justify-content: center;
+  align-items: end;
 
 
-} */
+}
