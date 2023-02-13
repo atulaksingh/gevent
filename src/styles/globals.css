@@ -34,9 +34,13 @@ a{
   text-decoration: none;
   height: 50px;
   overflow: hidden;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
  margin-top: 1vw;
+}
+a:hover{
+  color: #D7F205;
 }
 .btn_close{
   display: flex;
