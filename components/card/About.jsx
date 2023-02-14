@@ -14,18 +14,18 @@ function About(props) {
   const [counterOn,setCounterOn] = useState(false)
   return (
     <>
-      <div className="bg-black text-white  h-full w-full  py-32">
+      <div className="bg-black text-white font-[Syne]  h-full w-full  py-32">
         <div className="container m-auto ">
           <div className="overflow-hidden">
             <div className="grid grid-cols-2 gap-20 lg:gap-2 mx-5 lg:mx-0 ">
-              <div className="col-span-2 lg:col-span-1 py-24 order-2 lg:order-1">
-                <div className="text-[#D7F205] font-bold tracking-[5px]">
+              <div className="col-span-2 lg:col-span-1 pt-24 order-2 lg:order-1">
+                <div className="text-[#D7F205] font-bold tracking-[5px] font-[Syne]">
                   {props.title}
                 </div>
-                <h1 className="text-[28px] text-white leading-10 sm:leading-[60px] sm:text-[50px] md:text-[69px] font-medium font-[Syne] py-4">
+                <h1 className="text-[28px] text-white leading-10 sm:leading-[60px] sm:text-[50px] md:text-[62px] font-medium font-[Syne] py-4">
                   {props.titleHead}
                 </h1>
-                <div className="text-sm text-gray-300 sm:text-lg py-3">
+                <div className="text-sm text-gray-300 sm:text-lg py-3 font-[Syne]">
                   {props.desc}
                 </div>
 
@@ -36,7 +36,7 @@ function About(props) {
                     data-aos="fade-up"
                     data-aos-once="false"
                     data-aos-duration="3000"
-                    className="p-3 md:p-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]"
+                    className="p-3 md:p-4 text-bold  hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]"
                   >
                     {props.buttonTitle}
                   </button>
@@ -44,6 +44,7 @@ function About(props) {
               </div>
               <div
                 data-aos="fade-left"
+                data-aos-offset="120"
                 data-aos-duration="2000"
                 className="col-span-2 lg:col-span-1 order-1 lg:order-2 box-content   m-auto "
               >
@@ -65,7 +66,8 @@ function About(props) {
 
                   <div
                     data-aos="fade-left"
-                    data-aos-duration="3000"
+                    // data-aos-offset="10px"
+                    data-aos-duration="2000"
                     className="absolute  z-30 -bottom-16 -right-2  sm:bottom-20 sm:-right-5  bg-black text-white w-[300px] lg:w-[200px] border border-white py-5 "
                   >
                     <h1 className="flex justify-center">
@@ -75,7 +77,7 @@ function About(props) {
                       </span>{" "}
                       TH
                     </h1>
-                    <div className="text-lg text-center">{props.titleyear}</div>
+                    <div className="text-lg text-center font-[]">{props.titleyear}</div>
                   </div>
                   </ScrollTrigger>
                 </div>

@@ -14,9 +14,9 @@ function MainHeadingCard(props) {
        <div className=" text-white ">
          <div>
            <div className="text-center py-40">
-             <div className="text-[70px]">{props.title}</div>
+             <div className="text-[60px] font-bold font-[Syne]">{props.title}</div>
              <div className="text-lg">
-               Home/<span className="text-[#D7F205]">{props.page}</span>
+               Home/<span className="text-[#D7F205] font-[Syne]">{props.page}</span>
              </div>
            </div>
          </div>

@@ -44,7 +44,7 @@ function Header() {
     <>
       <div className="bg-black text-white ">
         <div className="z-500 container m-auto">
-          <div className="flex justify-between">
+          <div className="flex justify-between  my-auto">
             <div className="relative h-20 w-52 ">
               <Image
                 src={
@@ -57,11 +57,11 @@ function Header() {
               />
             </div>
 
-            <div className="flex my-auto justify-start gap-10">
+            <div className="flex my-auto justify-start gap-12 align-baseline">
               {headData.map((item, index) => (
                 <div
                   key={index}
-                  className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205]"
+                  className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205] font-[Syne]"
                 >
                   <Link href={item.link}>{item.name}</Link>
                 </div>

@@ -16,10 +16,10 @@ function EventCardItem(props) {
               <div className="flex gap-4 md:gap-5 py-1">
                 <div>{item.cardIcon}</div>
                 <div className="">
-                  <div className="md:text-xl text-white font-bold py-2">
+                  <div className="md:text-xl text-white font-[Syne] font-bold py-2">
                     {item.cardTitle}
                   </div>
-                  <div className="text-sm md:text-base text-gray-300 font-normal ">
+                  <div className="text-sm md:text-base  font-[Syne] text-gray-300 font-normal ">
                     {item.cardDesc}
                   </div>
                 </div>

@@ -41,7 +41,7 @@ const UpComingData=[
 function UpComing() {
   return (
     <>
-      <div className="py-20">
+      <div className="py-20 font-[Syne]">
         <div className="container m-auto ">
           <div className="py-10 text-center">
             <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
@@ -81,7 +81,7 @@ function UpComing() {
                     {item.title}
                   </div>
 
-                  <div className="text-base text-[Hind] text-gray-300 ">
+                  <div className="text-base text-[ Syne] text-gray-300 ">
                   {item.desc}
                   </div>
                   <div className="py-10">

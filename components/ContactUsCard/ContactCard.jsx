@@ -2,7 +2,7 @@ import React from "react";
 import { FaUserFriends } from "react-icons/fa";
 function ContactCard() {
   return (
-    <div className="text-white">
+    <div className="text-white font-[Syne]">
       <div className="container m-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-2 py-24 mx-5 overflow-x-hidden">
           <div className="col-span-1 py-16">
@@ -156,7 +156,7 @@ function ContactCard() {
                   rows={6}
                 />
               </form>
-              <button className="my-10 md:my-0 mx-5 px-6 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+              <button className="my-10 font-[Syne] md:my-0 mx-5 px-6 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
                 SUBMIT BUTTON
               </button>
             </div>

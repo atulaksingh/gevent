@@ -7,20 +7,20 @@ function Service(props) {
       <div className="container m-auto">
         <div>
           <div className="py-10 text-center">
-            <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
+            <div className="text-[#ddf242] font-[Syne] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
               {props.title}
             </div>
-            <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[4rem] lg:text-[4.5rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white ">
+            <h1 className="text-[2.2rem] font-[Syne] leading-[40px] sm:text-[3rem] md:text-[4rem] lg:text-[3.8rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white ">
               {props.titleHead}
             </h1>
-            <div className="text-sm text-gray-300 sm:text-lg py-3 lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 lg:py-10  ">
+            <div className="text-sm text-gray-300 sm:text-lg py-3 lg:text-lg mx-5 sm:mx-14 lg:mx-48 md:py-5 font-[Syne]  ">
           {props.desc}
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-3 gap-10">
           {
             props.card.map((item,index)=>(
-              <div key={index} className="col-span-3 lg:col-span-1 mx-5 sm:mx-0" data-aos-offset="300"  data-aos="fade-up"  data-aos-once="false"
+              <div key={index} className="col-span-3 lg:col-span-1 mx-5 sm:mx-0"   data-aos="fade-up"  data-aos-once="false"
      data-aos-duration="1000">
             <ServiceIconCard
              icon={

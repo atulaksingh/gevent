@@ -11,14 +11,14 @@ function Testimonial() {
         <div className=" pt-40 lg:py-40">
           <div className="grid grid-cols-2  gap-2 overflow-x-hidden">
             <div className="col-span-2 lg:col-span-1 order-2 lg:order-1 py-16 lg:py-24 mx-5">
-              <div className="text-[#D7F205] font-bold tracking-[5px]">
+              <div className="text-[#D7F205] font-bold tracking-[5px] font-[Syne]">
                 TESTIMONIAL
               </div>
-              <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] py-4">
+              <h1 className="text-[28px] text-white leading-8 sm:leading-[70px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] py-4 ">
                 Experience <br />
                 They Have
               </h1>
-              <div className="text-sm text-gray-300 sm:text-lg py-3 lg:w-[80%]">
+              <div className="text-sm text-gray-300 sm:text-lg font-[Syne] py-3 lg:w-[80%]">
                 Cras porttitor urna eu metus efficitur, a tempus ligula
                 vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris
                 dolor, interdum id vestibulum et pharetra ac libero. Etiam
@@ -38,7 +38,7 @@ function Testimonial() {
                   <AiFillStar color="yellow" size={20} />
                   <AiFillStar color="yellow" size={20} />
                 </div>
-                <div>
+                <div className="font-[Syne]">
                   &apos; Cras porttitor urna eu metus efficitur, a tempus ligula
                   vehicula. Donec ornare pharetra metus nec vehicula. Etiam
                   mauris dolor, interdum id vestibulum et pharetra ac libero.
@@ -46,8 +46,8 @@ function Testimonial() {
                 </div>
                 <div className="flex justify-between mt-5">
                   <div className="">
-                    <div className="md:text-2xl font-bold">Baron Mordo</div>
-                    <div className="text-sm md:text-base text-[#b6ca21]">
+                    <div className="md:text-2xl font-bold font-[Syne]">Baron Mordo</div>
+                    <div className="text-sm md:text-base text-[#b6ca21] font-[Syne]">
                       CEO Agency
                     </div>
                   </div>
@@ -71,13 +71,12 @@ function Testimonial() {
             </div>
             <div
               data-aos="fade-left"
-              //  data-aos-anchor="#example-anchor"
               data-aos-offset="100"
               data-aos-duration="1000"
               className="col-span-2 lg:col-span-1 order-1 lg:order-2 mx-5 md:mx-10 lg:mx-0"
             >
-              <div className="   md:mx-0 border border-[#D7F205] h-full w-full  lg:h-[850px] lg:w-[610px] ">
-                <div className="relative  top-4 right-2 md:top-14  md:right-10 lg:right-20 h-[300px]  sm:h-[700px]  md:h-[800px] md:w-[700px] lg:h-[800px] lg:w-[650px]">
+              <div className="   md:mx-0 border border-[#D7F205] h-full w-full  lg:h-[750px] lg:w-[610px] ">
+                <div className="relative  top-4 right-2 md:top-14  md:right-10 lg:right-20 h-[300px]  sm:h-[700px]  md:h-[800px] md:w-[700px] lg:h-[700px] lg:w-[650px]">
                   <Image
                     src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675666264/business-people-party-celebration-success-concept-XGXN6PU_rn0kpf.webp"
                     layout="fill"

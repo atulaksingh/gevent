@@ -22,12 +22,12 @@ function BgImage3(props) {
      
         <div className="container m-auto   ">
           <div className="py-10 text-center">
-            <h1 className="text-[2rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white">
+            <h1 className="text-[2rem] leading-[40px] sm:text-[2.8rem] md:text-[3rem] lg:text-[3.5rem] sm:leading-[65px] md:leading-[80px] lg:leading-[60px] font-[600] mx-1 text-white font-[Syne]">
               {props.title}
             </h1>
-            <div className="text-gray-300 font-semibold text-sm md:text-base lg:text-lg mx-3 sm:mx-10 lg:mx-24 py-6 lg:py-10">{props.desc}</div>
+            <div className="text-gray-300 font-semibold text-sm md:text-base lg:text-lg mx-3 sm:mx-10 lg:mx-24 py-6 font-[Syne]">{props.desc}</div>
             <div className="pb-20">
-              <button className=" p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+              <button className="font-[Syne] p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
                 {props.buttonTitle}
               </button>
             </div>

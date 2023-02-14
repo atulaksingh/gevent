@@ -16,14 +16,14 @@ function Exprience(props) {
         }}
       >
         <div className="bg-gradient-to-b from-[#bfcc58]">
-          <div className=" flex flex-wrap gap-10 justify-center py-20">
+          <div className=" flex flex-wrap gap-10 justify-center py-20 font-[Syne]">
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold">
+                <span className="text-[50px] text-[#D7F205] font-[Syne]">
                 {counterOn &&  <CountUp start={0} end={172} duration={2} delay={0} />}
                
                 </span>{" "}
-                <span className="font-black">TH</span>
+                <span className="font-black font-[Syne]">TH</span>
               </h1>
               <div className="text-lg text-center font-bold">
                 Years Of Experience

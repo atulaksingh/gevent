@@ -15,7 +15,7 @@ const teamData = [
 function Team() {
   return (
     <>
-      <div className="bg-black py-20">
+      <div className="bg-black py-20 font-[Syne]">
         <div className="container m-auto">
           <div className="py-10 text-center mx-5">
             <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
@@ -34,7 +34,7 @@ function Team() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 pb-20">
             {teamData.map((item, index) => (
               <div
-                data-aos-offset="300"
+                data-aos-offset="120"
                 data-aos="fade-up"  data-aos-once="false"
                 data-aos-duration="1000"
                 key={index}

@@ -6,13 +6,13 @@ function Portfolio(props) {
       <div className="container m-auto">
         <div>
           <div className="py-10 text-center">
-            <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
+            <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest font-[Syne]">
               {props.title}
             </div>
-            <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white  ">
+            <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white  font-[Syne]">
               {props.titleHead}
             </h1>
-            <div className="text-sm text-gray-300 sm:text-lg py-3 lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 lg:py-10 ">
+            <div className="text-sm text-gray-300 sm:text-lg py-3 lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 font-[Syne] ">
               {props.desc}
             </div>
           </div>

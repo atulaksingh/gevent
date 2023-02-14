@@ -12,11 +12,11 @@ function AboutTeamCard() {
   }, []);
   return (
     <>
-      <div className="bg-black text-white    py-14 ">
+      <div className="bg-black text-white py-20   md:py-0 ">
         <div className=" relative md:border-t-2 border-white">
           <div className=" container m-auto ">
        
-            <div className="-mt-32   grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center mx-5">
+            <div className="-mt-32   grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center mx-5 md:mx-10">
               <div
                 data-aos="fade-up"  data-aos-once="false"
                 data-aos-duration="1000"

@@ -15,15 +15,15 @@ function Hero() {
             alt="hero img"
           />
           <div className="absolute h-[100vh] w-[100vw] bg-gradient-to-t from-[#131601] to-transparent "></div>
-          <div className="absolute w-screen top-16 text-center">
+          <div className="absolute w-screen top-28 text-center">
             <div className="py-10">
-              <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest">
+              <div className="text-[#ddf242] mb-5 m-auto text-lg font-bold md:space-x-20 md:tracking-widest font-[Syne]">
                 GEVENT ORGANIZER
               </div>
-              <h1 className="text-[2rem] leading-[40px] sm:text-[3rem] md:text-[4.5rem] lg:text-[5.5rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white font-[Hind]">
+              <h1 className="text-[2rem] leading-[40px] sm:text-[3rem] md:text-[4.5rem] lg:text-[5rem] sm:leading-[65px] md:leading-[80px] lg:leading-[90px] font-[600] mx-1 text-white font-[Syne]">
                 Get An Unforgettable Event Experience With us
               </h1>
-              <div className="text-gray-300 font-semibold md:text-lg lg:text-xl mx-5 sm:mx-14 lg:mx-32 md:py-5 lg:py-10">
+              <div className="text-gray-300 font-semibold md:text-lg lg:text-xl mx-5 sm:mx-14 lg:mx-36 md:py-5 lg:py-10 font-[Syne]">
                 Duis consectetur urna ac urna sollicitudin, in porta metus
                 dignissim. Morbi malesuada nisl ac nibh laoreet, in ultrices est
                 elementum. Suspendisse fringilla efficitur risus ac iaculis.

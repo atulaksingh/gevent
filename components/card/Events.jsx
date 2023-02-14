@@ -7,7 +7,7 @@ import ScrollTrigger from "react-scroll-trigger";
 function Events(props) {
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className="bg-black text-white border-t-2 border-white">
+    <div className="bg-black text-white border-t-2 border-white font-[Syne]">
       <div className="py-10 md:py-40">
         <div className="grid grid-cols-2  gap-2 ">
           <div className="col-span-2 lg:col-span-1 mx-10 md:mx-16">
@@ -79,13 +79,13 @@ function Events(props) {
             </ScrollTrigger>
           </div>
           <div className="col-span-2 lg:col-span-1 py-40 lg:py-24 mx-5">
-            <div className="text-[#D7F205] font-bold tracking-[5px]">
+            <div className="text-[#D7F205] font-bold tracking-[5px] font-[Syne]">
               {props.title}
             </div>
             <h1 className="text-[28px] text-white leading-8 sm:leading-[60px] sm:text-[50px] md:text-[67px] font-medium font-[Syne] py-4">
               {props.titleHead}
             </h1>
-            <div className="text-sm text-gray-300 sm:text-lg py-3">
+            <div className="text-sm text-gray-300 sm:text-lg py-3 font-[Syne]">
               {props.desc}
             </div>
             <div>{props.card}</div>
