@@ -56,7 +56,7 @@ function Portfolio(props) {
             data-aos-duration="1000"
             className="col-span-12 lg:col-span-4  p-2"
           >
-            <div className="relative h-[350px]">
+            <div className="relative h-[350px] hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
               <Image
                 src={props.img3}
                 layout="fill"

@@ -1,6 +1,8 @@
 import MainHeadingCard from "components/card/MainHeadingCard";
 import React from "react";
 import ContactCard from "./ContactCard";
+import GMap from "./GMap";
+import GoogleMap from "./GMap";
 
 function ContactUs() {
   return (
@@ -10,6 +12,9 @@ function ContactUs() {
       </div>
       <div>
         <ContactCard />
+      </div>
+      <div>
+        <GMap />
       </div>
     </div>
   );

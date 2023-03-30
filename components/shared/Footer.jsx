@@ -40,8 +40,7 @@ function Footer() {
                   />
                 </div>
                 <div className= "text-base md:text-lg text-gray-300 w-80 m-auto">
-                  Aenean pharetra erat in nisl blandit. Nullam gravida enim
-                  curae elementum.
+                Where your vision meets our Panache expertise
                 </div>
                 <div className="flex gap-4 justify-center my-5">
                   <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">

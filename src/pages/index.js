@@ -6,7 +6,8 @@ import Logo from 'components/main/Logo'
 import Plans from 'components/main/Plans'
 import Testimonial from 'components/main/Testimonial'
 import Blog from 'components/main/Blog'
-
+import { useState, useEffect } from 'react';
+import AOS from 'aos';
 import AboutTeamCard from 'components/card/AboutTeamCard'
 import Exprience from 'components/card/Exprience'
 import MainAbout from 'components/main/MainAbout'
@@ -20,6 +21,9 @@ import SmNavbar from 'components/card/SmNavbar'
 
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
    
@@ -27,7 +31,7 @@ export default function Home() {
       <main className={styles.main}>
    
        <Hero />
-        <AboutTeamCard />
+        {/* <AboutTeamCard /> */}
        <MainAbout  />
        <Exprience />
        <MainService />
@@ -37,12 +41,12 @@ export default function Home() {
        <div className="">
           <BgImage3
             title="Let's Talk About Your Event Idea With Us"
-            desc="Cras porttitor urna eu metus efficitur, a tempus ligula vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris dolor, interdum id vestibulum et pharetra ac libero. Etiam vestibulum in mi sit amet."
+            desc="Get in touch with Panache Media to bring your dream event to life with their expert event management and celebrity collaborations.."
             buttonTitle="CONTACT US"
           />
         </div>
        <Testimonial />
-       <Plans />
+       {/* <Plans /> */}
        <Blog /> 
      {/* <SmNavbar /> */}
       </main>

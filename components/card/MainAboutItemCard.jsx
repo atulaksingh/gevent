@@ -17,7 +17,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Marketing Concept Planning and Execution
             </div>
           </div>
           <div className="flex gap-2 py-1">
@@ -32,7 +32,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Creative Designing
             </div>
           </div>
           <div className="flex gap-2 py-1">
@@ -47,7 +47,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Brand Activation
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Special Event Management
             </div>
           </div>
           <div className="flex gap-2 py-1">
@@ -79,7 +79,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Entertainment Solutions in sphere of Music
             </div>
           </div>
           <div className="flex gap-2 py-1">
@@ -94,7 +94,7 @@ function MainAboutItemCard() {
               </svg>
             </div>
             <div className="my-auto font-medium text-sm md:text-lg font-[syne] cursor-pointer hover:text-[#D7F205] w-full">
-              Provide Best Quality Events
+            Sports and Bollywood Celebrities
             </div>
           </div>
         </div>

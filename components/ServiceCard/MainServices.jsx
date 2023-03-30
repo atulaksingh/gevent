@@ -91,7 +91,8 @@ function MainServices() {
           <About
             title="OTHER SERVICE"
             titleHead="We Also Help In"
-            desc="Cras porttitor urna eu metus efficitur, a tempus ligula vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris dolor, interdum id vestibulum et pharetra ac libero. Etiam vestibulum in mi sit amet."
+            desc="Panache Media offers top-notch production services that deliver high-quality content for various media platforms. With a focus on creativity and innovation, Panache Production services are designed to captivate audiences and elevate brands.
+"
             img="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675841116/couple-standing-in-crowd-at-music-festival-2FGMHQ8a_holfbn.jpg"
             // aboutcard={<MainAboutItemCard />}
             aboutcard=<EventCardItem data={serviceData} />

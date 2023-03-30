@@ -20,30 +20,30 @@ function Exprience(props) {
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
                 <span className="text-[50px] text-[#D7F205] font-[Syne]">
-                {counterOn &&  <CountUp start={0} end={172} duration={2} delay={0} />}
+                {counterOn &&  <CountUp start={0} end={200} duration={2} delay={0} />}
                
                 </span>{" "}
-                <span className="font-black font-[Syne]">TH</span>
+                <span className="font-bold font-[Syne]">+</span>
               </h1>
               <div className="text-lg text-center font-bold">
-                Years Of Experience
+              Clients
               </div>
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={15} duration={2} delay={0} />}</span>{" "}
-                <span className="font-black">TH</span>
+                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={1000} duration={2} delay={0} />}</span>{" "}
+                <span className="font-bold">+</span>
               </h1>
               <div className="text-lg text-center font-bold">
-                Years Of Experience
+              Shows 
               </div>
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
                 <span className="text-[50px] text-[#D7F205] font-bold">
-                {counterOn &&  <CountUp start={0} end={250} duration={2} delay={0} />}
+                {counterOn &&  <CountUp start={0} end={10} duration={2} delay={0} />}
                 </span>{" "}
-                <span className="font-black">TH</span>
+                <span className="font-bold">+</span>
               </h1>
               <div className="text-lg text-center font-bold">
                 Years Of Experience
@@ -51,11 +51,11 @@ function Exprience(props) {
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={80} duration={2} delay={0} />}</span>{" "}
-                <span className="font-black">TH</span>
+                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={50} duration={2} delay={0} />}</span>{" "}
+                <span className="font-bold">+</span>
               </h1>
               <div className="text-lg text-center font-bold">
-                Years Of Experience
+              Team 
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ function ServiceIconCard(props) {
           <div className="font-bold md:text-2xl py-2 font-[Syne]">
             {props.title}
           </div>
-          <div className="text-gray-400 text-sm md:text-lg py-2 font-[Syne]">
+          <div className="text-gray-400 text-sm md:text-lg py-2 font-[Syne] line-clamp-4">
             {props.desc}
           </div>
           <div className="flex  md:py-3 gap-3 cursor-pointer hover:text-[#D7F205] hover:stroke-[#D7F205]">

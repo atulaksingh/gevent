@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
 }
-a{
+a {
   display: inline-flex;
   color: white;
   text-decoration: none;
@@ -37,12 +37,12 @@ a{
   font-size: 16px;
   font-weight: bold;
   /* text-transform: uppercase; */
- margin-top: 1vw;
+  margin-top: 1vw;
 }
-a:hover{
-  color: #D7F205;
+a:hover {
+  color: #d7f205;
 }
-.btn_close{
+.btn_close {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +59,244 @@ a:hover{
   font-size: 35px;
   justify-content: center;
   align-items: end;
-
-
 }
+
+.content {
+  position: relative;
+}
+.screen {
+  display: block;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #b3b3b3;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+.screen img {
+  bottom: -2110px;
+
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: top 2s;
+  -moz-transition: top 2s;
+  -ms-transition: top 2s;
+  -o-transition: top 2s;
+  transition: bottom 2s;
+}
+.screen:hover img {
+  bottom: 0;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
+.owl-caption .title,
+.owl-caption i {
+  /* font-size: 65px;
+  font-weight: 900;
+  font-family: ralewayextrabold;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 55px; */
+  position: absolute;
+  top: -325px;
+  font-size: 65px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 75px;
+  animation-name: tools;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+.owl-caption .sub-title {
+  /* font-size: 23px;
+  position: relative;
+  top: 5px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #000;
+  display: block; */
+  position: absolute;
+  top: -350px;
+  width: max-content;
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #000;
+  display: block;
+  animation-name: tools;
+  animation-duration: 4s;
+  /* animation-iteration-count: 1;
+  animation-fill-mode: alternate;
+  animation-timing-function: ease-in-out; */
+  animation-timing-function: ease-in;
+}
+
+@keyframes tools {
+  0% {
+    /* right: 40px;
+    left: 20px; */
+  }
+  100% {
+    inset: auto 10% 10% auto;
+    visibility: hidden;
+    opacity: 0;
+    animation-duration: 15s;
+    transform: translate3d(471.2px, 0px, 10.01px);
+  }
+}
+/* .num{
+  transform: matrix(1, 0, 0, 1, 0, 0); width: 1007px; height: auto; top: -241.28px; left: 0px; transform-origin: 19% 80%;
+}
+.text{
+  
+} */
+.dj {
+  transform: matrix(1.05577, 0, 0, 1.05577, 0, 0);
+  width: "1440px";
+  /* height: "auto",
+  top: "-307px",
+  left: "0px",
+  transformOrigin: "23% 14%", */
+}
+.owl-img {
+  opacity: 1;
+  visibility: inherit;
+}
+
+.Dj{
+  /* transform: matrix(1, 0, 0, 1, 0, 0); */
+  width: 1440px;
+  height: auto;
+  top: -307px;
+  left: 0px;
+  transform-origin: 98% 3%;
+  transition-duration: 2s;
+  transition-delay: 5s;
+  animation-name: hroimg;
+}
+@keyframes heroimg{
+  0%{
+    width: 1540px;
+    height: auto;
+    top: -307px;
+    left: 0px;
+    transform-origin: 98% 3%;
+    transition-duration: 2s;
+    transition-delay: 5s;
+    animation-name: hroimg;
+  }
+  100%{
+    transform: scale(150px);
+    width: 1490px;
+
+  /* width: 1440px; */
+  height: auto;
+  top: -307px;
+  left: 0px;
+  transform-origin: 98% 3%;
+  }
+}
+
+.titletext {
+  inset: auto auto 10% 10%;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate3d(72px, 0px, 0.01px);
+}
+.owl-img:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("http://www.panachemedia.in/assets/img/overlay-pattern2.png");
+  opacity: 0.5;
+  z-index: 2;
+}
+
+
+/* ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+/* .kb-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+.kb-slider:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("http://www.panachemedia.in/assets/img/overlay-pattern2.png");
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.owl-slide img {
+  position: absolute;
+}
+.owl-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 300;
+  color: #fff;
+  opacity: 0;
+}
+.owl-caption a {
+  color: #fff;
+}
+.owl-caption .title,
+.owl-caption i {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: ralewayextrabold;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 55px;
+}
+.owl-caption .sub-title {
+  font-size: 23px;
+  position: relative;
+  top: 5px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #000;
+  display: block;
+}
+.owl-caption i {
+  font-size: 38px;
+  position: relative;
+  top: -4px;
+  left: 10px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.owl-caption a:focus i,
+.owl-caption a:hover i {
+  color: #dc971f;
+}
+#kb-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1c;
+  z-index: 1000;
+} */

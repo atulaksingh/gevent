@@ -7,7 +7,7 @@ function MainPortfolio() {
     <Portfolio
     title="PORTFOLIO"
     titleHead="Some of Our Event"
-    desc="Cras porttitor urna eu metus efficitur, a tempus ligula vehicula. Donec ornare pharetra metus nec vehicula. Etiam mauris dolor, interdum id vestibulum et pharetra ac libero. Etiam vestibulum in mi sit amet."
+    desc="Panache Media's impressive portfolio showcases their expertise in creating unforgettable events, collaborating with renowned personalities and delivering top-notch services in the entertainment industry."
     img1="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675511612/party-M8J3WXM_rgal2q.webp"
     img2="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675684545/group-of-friends-drinking-beers-enjoying-music-fes-PLYH7QA_vihdw5.jpg"
     img3="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675684545/group-of-friends-drinking-beers-enjoying-music-fes-PLYH7QA_vihdw5.jpg"
