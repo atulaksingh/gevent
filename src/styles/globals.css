@@ -106,7 +106,7 @@ a:hover {
   text-shadow: 1px 1px 2px #000;
   line-height: 55px; */
   position: absolute;
-  top: -325px;
+  top: -150px;
   font-size: 65px;
   font-weight: 600;
   text-shadow: 1px 1px 2px #000;
@@ -123,7 +123,7 @@ a:hover {
   text-shadow: 1px 1px 2px #000;
   display: block; */
   position: absolute;
-  top: -350px;
+  top: -190px;
   width: max-content;
   font-size: 30px;
   font-weight: 400;
@@ -137,10 +137,8 @@ a:hover {
   animation-timing-function: ease-in;
 }
 
-@keyframes tools {
+/* @keyframes tools {
   0% {
-    /* right: 40px;
-    left: 20px; */
   }
   100% {
     inset: auto 10% 10% auto;
@@ -149,7 +147,7 @@ a:hover {
     animation-duration: 15s;
     transform: translate3d(471.2px, 0px, 10.01px);
   }
-}
+} */
 /* .num{
   transform: matrix(1, 0, 0, 1, 0, 0); width: 1007px; height: auto; top: -241.28px; left: 0px; transform-origin: 19% 80%;
 }
@@ -170,9 +168,9 @@ a:hover {
 }
 
 .Dj{
-  /* transform: matrix(1, 0, 0, 1, 0, 0); */
   width: 1440px;
-  height: auto;
+  height: 700px;
+  object-fit: initial;
   top: -307px;
   left: 0px;
   transform-origin: 98% 3%;

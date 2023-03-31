@@ -87,7 +87,7 @@ function Header() {
         </div>
        <div> 
        {open &&(
-        <SmNavbar close={closeManu}  />
+        <SmNavbar close={closeManu} head={headData}  />
        )}
       </div>
       </div>

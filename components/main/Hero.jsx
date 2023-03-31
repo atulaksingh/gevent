@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { useAnimation } from "framer-motion";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -10,17 +10,31 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import "./styles.css";
-
+import { useInView } from 'react-hook-inview'
 // import required modules
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper";
-import { easeInOut, motion } from "framer-motion";
+import { easeInOut, motion,  } from "framer-motion";
+import { InfoBox } from "@react-google-maps/api";
 function Hero() {
+  const [ref, inView] = useInView()
+  // const { ref, inView } = useInView();
+  const animation = useAnimation();
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 200,
+        scale: 1.5,
+        transition:{ duration: 8 }
+      });
+    }
+    console.log("use effect hook inView =", inView);
+  }, [inView]);
   return (
     <>
       <div className=" text-white bg-black">
-        <div className="relative lg:h-screen overflow-hidden  w-full overflow-x-hidden z-0">
+        <div className="relative  lg:h-screen overflow-hidden  w-full overflow-x-hidden z-0">
           {/* <Image
             src={
               "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675511612/party-M8J3WXM_rgal2q.webp"
@@ -41,12 +55,13 @@ function Hero() {
             modules={[EffectFade, Navigation, Pagination, Autoplay]}
             className="mySwiper"
           >
-            <SwiperSlide>
+            <SwiperSlide >
               <motion.div
-                animate={{ x: 200, scale: 1.5 ,width:1440  }} transition={{duration:5}} 
+                animate={{ x: 200, scale: 1.5 }}
+                transition={{ duration: 8 ,repeat:Infinity, } }
                 // initial={{width:1440 }}
                 className="owl-img"
-                // style={{ opacity: 1, visibility: "inherit" }}
+                style={{ opacity: 1, visibility: "inherit" }}
               >
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089313/02_1_fxhwlf.jpg"
@@ -57,24 +72,28 @@ function Hero() {
               <div
                 className="owl-caption"
                 style={{
-                  inset: "auto auto 10% 10%",
-                  visibility: "inherit",
-                  opacity: 1,
-                  transform: "translate3d(57.9179px, 0px, 0.00804415px)",
+                  // inset: "auto auto 10% 10%",
+                  // visibility: "inherit",
+                  // opacity: 1,
+                  transform: "translate3d(17.9179px, 0px, 1.00804415px  )",
                 }}
               >
-                <div className="caption" data-pos="bottom-left">
+                <motion.div
+                 animate={{ x: 150, }}
+                transition={{ duration: 4 ,repeat: Infinity, } }
+                 className="caption" data-pos="bottom-left">
                   <span className="sub-title ">
                     Celebrate any event with us
                   </span>
 
                   <span className="title">we are here for your happiness</span>
-                </div>
+                </motion.div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
-               animate={{ x:10, scale: 1.5 , }} transition={{duration:5 , delay:2 , easings:"#ddf242"} } 
+                animate={{ x: 10, scale: 1.5 }}
+                transition={{ duration: 9, delay: 2, repeat: Infinity }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
@@ -93,16 +112,20 @@ function Hero() {
                   transform: "translate3d(57.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <div className="caption" data-pos="bottom-left">
+                <motion.div 
+                 animate={{ x: 150, }}
+                transition={{ duration: 4 ,delay: 2,repeat: Infinity, } }
+                className="caption" data-pos="bottom-left">
                   <span className="sub-title ">One of the leading</span>
 
                   <span className="title">Event Company of India</span>
-                </div>
+                </motion.div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
-               animate={{ y:-10, scale: 1.5 ,  }} transition={{duration:5 ,delay:5}} 
+                animate={{ y: -10, scale: 1.5 }}
+                transition={{ duration: 9, delay: 5.5 ,repeat: Infinity , }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
@@ -121,7 +144,10 @@ function Hero() {
                   transform: "translate3d(57.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <div className="caption" data-pos="bottom-left">
+                <motion.div 
+                 animate={{ x: 150, }}
+                transition={{ duration: 4 ,delay: 5.5,repeat: Infinity, } }
+                className="caption" data-pos="bottom-left">
                   <span className="sub-title ">
                     First Time Ghulam ALi & Son
                   </span>
@@ -129,12 +155,14 @@ function Hero() {
                   <span className="title">
                     performing together for EK Ehsaas
                   </span>
-                </div>
+                </motion.div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
-               animate={{ y:48, scale:1,  }} initial={{scale:1.5}} transition={{duration:5 ,delay:8}} 
+                animate={{ y: 48, scale: 1 }}
+                initial={{ scale: 1.5 }}
+                transition={{ duration: 9, delay: 8 ,repeat: Infinity , ease:"easeOut" }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
@@ -142,14 +170,7 @@ function Hero() {
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089316/06_tbyhq2.jpg"
                   alt="img"
                   className="Dj"
-                  // style={{
-                  //   transform: "matrix(1.05577, 0, 0, 1.05577, 0, 0)",
-                  //   width: "1440px",
-                  //   height: "auto",
-                  //   top: "-307px",
-                  //   left: "0px",
-                  //   transformOrigin: "23% 14%",
-                  // }}
+               
                 />
               </motion.div>
               <div
@@ -161,16 +182,22 @@ function Hero() {
                   transform: "translate3d(57.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <div className="caption" data-pos="bottom-left">
+                <motion.div 
+                    animate={{ x: 20,  }}
+                initial={{ x:700}}
+                transition={{ duration: 7, delay: 8 ,repeat: Infinity ,  }}
+                className="caption" data-pos="bottom-left">
                   <span className="sub-title">Main Tera Hero</span>
 
                   <span className="title">Promotions</span>
-                </div>
+                </motion.div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
-              animate={{ y:48, scale:1,  }} initial={{scale:1.5}} transition={{duration:5 ,delay:8}} 
+                animate={{ y: 44, scale: 1 }}
+                initial={{ scale: 1.5 }}
+                transition={{ duration: 9, delay: 8, repeat: Infinity }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
@@ -197,11 +224,14 @@ function Hero() {
                   transform: "translate3d(57.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <div className="caption" data-pos="bottom-left">
+                <motion.div 
+                 animate={{ x: 200, }}
+                transition={{ duration: 8 ,delay: 8,repeat: Infinity, } }
+                className="caption" data-pos="bottom-left">
                   <span className="sub-title">Brand Activation</span>
 
                   <span className="title">& Promotional Events</span>
-                </div>
+                </motion.div>
               </div>
             </SwiperSlide>
           </Swiper>

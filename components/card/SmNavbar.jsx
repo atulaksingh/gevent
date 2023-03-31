@@ -48,7 +48,7 @@ function SmNavbar(props) {
               x
             </div>
             <div className="manu_container">
-              {props.data.map((item, index) => (
+              {props?.head?.map((item, index) => (
                 <motion.a key={index} href={item.link}
                 
                 initial={{ y: 90, opacity: 0 }}
