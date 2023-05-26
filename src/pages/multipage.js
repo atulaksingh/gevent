@@ -36,7 +36,7 @@ function multipage() {
             <MainHeadingCard title="ELEANOR & STEFANO" page="MultiImages" />
           </div>
           <div className="py-20 mx-10">
-            <div className="grid grid-cols-3 gap-10">
+            {/* <div className="grid grid-cols-3 gap-10">
               <div className="col-span-2">
                 <h1 className="text-[17px] fonr-[500] leading-[1.5em] line-clamp-1">
                   Quality vestibulum mollis accumsan ultricies. Sed urna velit,
@@ -53,7 +53,7 @@ function multipage() {
                 <h1>Wedding Photographer : Janet</h1>
                 <h1>Lewis Location : Lakewood WA, USA</h1>
               </div>
-            </div>
+            </div> */}
             <div className="grid grid-cols-3 gap-10 py-10">
               {data.map((item, index) => (
                 <div key={index} className="col-span-1">

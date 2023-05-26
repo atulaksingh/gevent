@@ -18,7 +18,7 @@ function Portfolio(props) {
             </div>
           </div>
         </div>
-        <div className="grid  lg:grid-cols-12 mx-5 gap-5">
+        <div className="grid  lg:grid-cols-12 mx-5 gap-5 my-8">
           <div
             data-aos-offset="100"
             data-aos="fade-up"
@@ -64,7 +64,7 @@ function Portfolio(props) {
             data-aos="fade-up"
             data-aos-once="false"
             data-aos-duration="1000"
-            className="col-span-12 lg:col-span-4  p-2"
+            className="col-span-12 lg:col-span-4  border border-white p-2"
           >
             <Link href={"/multipage"} className="h-full w-full">
               <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
@@ -80,7 +80,70 @@ function Portfolio(props) {
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 mx-5">
+        <div className="grid  lg:grid-cols-12 mx-5 gap-5 my-8">
+          <div
+            data-aos-offset="100"
+            data-aos="fade-up"
+            data-aos-once="false"
+            data-aos-duration="1000"
+            className="col-span-12 lg:col-span-4 border border-white p-2"
+          >
+            <Link href={"/multipage"} className="h-full w-full">
+              <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+                <img
+                  src={props.img1}
+                  alt="Movie"
+                  className="relative w-full   lg:h-[350px] bg-contain  "
+                />
+                <h1 className="text-white py-1 mt-1 text-center">
+                  Ghulam Ali Delhi
+                </h1>
+              </div>
+            </Link>
+          </div>
+          <div
+            data-aos-offset="100"
+            data-aos="fade-up"
+            data-aos-once="false"
+            data-aos-duration="1000"
+            className="col-span-12 lg:col-span-4 border border-white p-2"
+          >
+            <Link href={"/multipage"} className="h-full w-full">
+              <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+                <img
+                  src={props.img2}
+                  alt="Movie"
+                  className="relative w-full   lg:h-[350px] bg-contain  "
+                />
+                <h1 className="text-white py-1 mt-1 text-center">
+                  Ghulam Ali Delhi
+                </h1>
+              </div>
+            </Link>
+          </div>
+          <div
+            data-aos-offset="100"
+            data-aos="fade-up"
+            data-aos-once="false"
+            data-aos-duration="1000"
+            className="col-span-12 lg:col-span-4  border border-white p-2"
+          >
+            <Link href={"/multipage"} className="h-full w-full">
+              <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+                <img
+                  src={props.img3}
+                  alt="Movie"
+                  className="relative w-full   lg:h-[350px] bg-contain  "
+                />
+                <h1 className="text-white py-1 mt-1 text-center">
+                  Ghulam Ali Delhi
+                </h1>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 mx-5">
           <div
             data-aos-offset="100"
             data-aos="fade-up"
@@ -121,8 +184,7 @@ function Portfolio(props) {
               </div>
             </Link>
           </div>
-        </div>
-      </div>
+        </div> */}
     </div>
   );
 }
