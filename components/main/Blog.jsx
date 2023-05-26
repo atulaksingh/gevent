@@ -34,7 +34,7 @@ function Blog() {
                 </div>
                 <div className="mx-5">
                   <div className="text-2xl py-5">
-                  Kailash Kher, to Pune City for an upcoming event you won't want to miss
+                  Kailash Kher, to Pune City for an upcoming event you won&lsquo;t want to miss
 
                   </div>
                   <div className="flex justify-start gap-11 text-[#DF2844]">
@@ -55,8 +55,8 @@ function Blog() {
                     </div>
                   </div>
                   <div className="text-base text-[ Syne] text-gray-300 my-4 line-clamp-4 leading-6">
-                  Join us as we welcome another legendary performer, Kailash Kher, to Pune City for an upcoming event you won't want to miss. Get ready to be mesmerized by his soulful voice and unforgettable performances, only with Panache Media
-
+                  Join us as we welcome another legendary performer&lsquo; Kailash Kher, to Pune City for an upcoming event you won&lsquo;t want to miss. Get ready to be mesmerized by his soulful voice and unforgettable performances, only with Panache Media
+                  {/* `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`. */}
                   </div>
                   <div className="flex gap-3 pb-7">
                     <div className="my-auto font-bold text-base text-gray-300 font-[Syne] cursor-pointer hover:text-[#DF2844]">
@@ -111,7 +111,7 @@ function Blog() {
                     </div>
                   </div>
                   <div className="text-base text-[ Syne] text-gray-300 my-4 line-clamp-4">
-                  Get ready to witness an amazing performance in Indore! Our upcoming event is set to blow your mind with an unforgettable show that you won't want to miss. Join us for an evening of entertainment, collaboration with celebrities, and superstars, all brought to you by Panache Media.
+                  Get ready to witness an amazing performance in Indore! Our upcoming event is set to blow your mind with an unforgettable show that you won&lsquo;t want to miss. Join us for an evening of entertainment, collaboration with celebrities, and superstars, all brought to you by Panache Media.
                   </div>
                   <div className="flex gap-3 pb-7">
                     <div className="my-auto font-bold text-base text-gray-300 font-[Syne] cursor-pointer hover:text-[#DF2844]">
@@ -144,7 +144,7 @@ function Blog() {
               Upcoming shows
               </h1>
               <div className="text-base text-gray-300 font-medium mt-1  line-clamp-4 leading-7 ">
-              Stay tuned for our upcoming shows, featuring top celebrities, supermodels, music and sport superstars, and exciting performances, all crafted to deliver unforgettable experiences that you won't want to miss! At Panache Media, we're constantly pushing the boundaries of event management to bring you the best shows possible.
+              Stay tuned for our upcoming shows, featuring top celebrities, supermodels, music and sport superstars, and exciting performances, all crafted to deliver unforgettable experiences that you won&lsquo;t want to miss! At Panache Media, we&lsquo;re constantly pushing the boundaries of event management to bring you the best shows possible.
 
               </div>
 
