@@ -3,7 +3,7 @@ import Header from "components/shared/Header";
 import Head from 'next/head';
 import React from "react";
 
-const Layout = ({ children, title = "Gevent" }) => {
+const Layout = ({ children, title = "PanacheMedia" }) => {
   return (
     <>
       <Head>

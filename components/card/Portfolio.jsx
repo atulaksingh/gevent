@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 function Portfolio(props) {
   return (
     <div className="bg-black pb-20">
       <div className="container m-auto">
         <div>
           <div className="py-10 text-center">
-            <div className="text-[#ddf242] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest font-[Syne]">
+            <div className="text-[#DF2844] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest font-[Syne]">
               {props.title}
             </div>
             <h1 className="text-[1.9rem] leading-[40px] sm:text-[3rem] md:text-[3.5rem] lg:text-[4rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white  font-[Syne]">
@@ -20,11 +21,12 @@ function Portfolio(props) {
         <div className="grid grid-cols-12 mx-5">
           <div
             data-aos-offset="100"
-            data-aos="fade-up"  data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-12 sm:col-span-6 lg:col-span-4 border border-white p-2"
           >
-            <div className="relative h-[350px]">
+            {/* <div className="relative h-[350px]">
               <Image
                 src={props.img1}
                 layout="fill"
@@ -32,72 +34,76 @@ function Portfolio(props) {
                 className=" h-fit w-fit"
                 alt="portfolio img"
               />
-            </div>
+            </div> */}
+            <Link href={"/multipage"}>
+              <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+                <img
+                  src={props.img1}
+                  alt="Movie"
+                  className="relative w-full   lg:h-[350px] bg-contain  "
+                />
+              </div>
+            </Link>
           </div>
           <div
             data-aos-offset="100"
-            data-aos="fade-up"  data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-12 sm:col-span-6 lg:col-span-4 border border-white p-2"
           >
-            <div className="relative h-[350px]">
-              <Image
+            <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+              <img
                 src={props.img2}
-                layout="fill"
-                objectFit="cover"
-                className=" h-fit w-fit"
-                alt="protfolio img"
+                alt="Movie"
+                className="relative w-full   lg:h-[350px] bg-contain  "
               />
             </div>
           </div>
           <div
             data-aos-offset="100"
-            data-aos="fade-up"  data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-12 lg:col-span-4  p-2"
           >
-            <div className="relative h-[350px] hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
-              <Image
+            <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+              <img
                 src={props.img3}
-                layout="fill"
-                objectFit="cover"
-                className=" h-fit w-fit"
-                alt="portfolio img"
+                alt="Movie"
+                className="relative w-full   lg:h-[350px] bg-contain  "
               />
             </div>
           </div>
-        
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-5">
           <div
             data-aos-offset="100"
-            data-aos="fade-up"  data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-1  p-2"
-          > 
-            <div className="relative h-[350px]">
-              <Image
+          >
+            <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+              <img
                 src={props.img4}
-                layout="fill"
-                objectFit="cover"
-                className=" h-fit w-fit"
-                alt="portfolio img"
+                alt="Movie"
+                className="relative w-full   lg:h-[350px] bg-contain  "
               />
             </div>
           </div>
           <div
             data-aos-offset="100"
-            data-aos="fade-up"  data-aos-once="false"
+            data-aos="fade-up"
+            data-aos-once="false"
             data-aos-duration="1000"
             className="col-span-1 border border-white p-2"
           >
-            <div className="relative h-[350px]">
-              <Image
+            <div className="w-full hover:bg-gray-600 hover:opacity-25 cursor-pointer ease-in-out duration-300">
+              <img
                 src={props.img5}
-                layout="fill"
-                objectFit="cover"
-                className=" h-fit w-fit"
-                alt="portfolio img"
+                alt="Movie"
+                className="relative w-full   lg:h-[350px] bg-contain  "
               />
             </div>
           </div>

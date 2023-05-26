@@ -28,7 +28,7 @@ function AboutTeamCard() {
                       <FaUserFriends
                         size={50}
                         style={{ margin: "auto" }}
-                        color="#D7F205"
+                        color="#DF2844"
                       />
                     </div>
                     <div className="font-bold text-xl py-2 ">Awesome Event</div>
@@ -46,7 +46,7 @@ function AboutTeamCard() {
                       <FaUserFriends
                         size={50}
                         style={{ margin: "auto" }}
-                        color="#D7F205"
+                        color="#DF2844"
                       />
                     </div>
                     <div className="font-bold text-xl py-2 ">Awesome Event</div>
@@ -64,7 +64,7 @@ function AboutTeamCard() {
                       <FaUserFriends
                         size={50}
                         style={{ margin: "auto" }}
-                        color="#D7F205"
+                        color="#DF2844"
                       />
                     </div>
                     <div className="font-bold text-xl py-2 ">Awesome Event</div>

@@ -7,7 +7,7 @@ function ContactCard() {
       <div className="container m-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-2 py-24 mx-5 overflow-x-hidden">
           <div className="col-span-1 py-16">
-            <div className="text-[#D7F205] font-bold tracking-[5px] ">
+            <div className="text-[#DF2844] font-bold tracking-[5px] ">
               CONTACT US
             </div>
             <h1 className="text-[30px] sm:text-[50px] md:text-[60px] w-full font-semibold ">
@@ -24,7 +24,7 @@ function ContactCard() {
               <div className="col-span-1 mb-3">
                 <div className="flex gap-5 ">
                   <div>
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="mt-2">
                     <div className="text-xl text-white font-bold ">Phone</div>
@@ -35,7 +35,7 @@ function ContactCard() {
               <div className="col-span-1 mb-3">
                 <div className="flex gap-5 ">
                   <div>
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="mt-2">
                     <div className="text-xl text-white font-bold ">Email</div>
@@ -48,7 +48,7 @@ function ContactCard() {
               <div className="col-span-1 mb-3">
                 <div className="flex gap-5 ">
                   <div>
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="mt-2">
                     <div className="text-xl text-white font-bold ">Website</div>
@@ -63,7 +63,7 @@ function ContactCard() {
               <div className="col-span-1 mb-3">
                 <div className="flex gap-5 ">
                   <div>
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="mt-2">
                     <div className="text-xl text-white font-bold ">Address</div>
@@ -76,7 +76,7 @@ function ContactCard() {
             </div>
             <div>
               <div className="text-2xl">Follow Us On</div>
-              <div className="border-t-4 border-[#D7F205] w-40 my-3"></div>
+              <div className="border-t-4 border-[#DF2844] w-40 my-3"></div>
               <div
                 data-aos-offset="300"
                 data-aos="fade-up"
@@ -85,7 +85,7 @@ function ContactCard() {
                 className="flex gap-4 justify-start "
               >
                
-                {/* <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">
+                {/* <div className="relative border border-[#DF2844] p-1 h-8 w-8 fill-white">
 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ function ContactCard() {
                   </svg>
                 </div> */}
            <Link href={"https://www.youtube.com/watch?v=M-b3Xuo35SI"}>
-                <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">
+                <div className="relative border border-[#DF2844] p-1 h-8 w-8 fill-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ionicon"
@@ -108,7 +108,7 @@ function ContactCard() {
                 </div>
                 </Link>
                 <Link href={"https://www.facebook.com/pages/Panache-Media-Mumbai/130191457086301"}>
-                <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">
+                <div className="relative border border-[#DF2844] p-1 h-8 w-8 fill-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ionicon"
@@ -121,7 +121,7 @@ function ContactCard() {
                   </svg>
                 </div>
                 </Link>
-                {/* <div className="relative border border-[#D7F205] p-1 h-8 w-8 fill-white">
+                {/* <div className="relative border border-[#DF2844] p-1 h-8 w-8 fill-white">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
                     <path d="M28 6.937c-.957.425-1.985.711-3.064.84a5.343 5.343 0 002.345-2.951 10.696 10.696 0 01-3.388 1.295 5.334 5.334 0 00-9.089 4.864A15.143 15.143 0 013.809 5.411a5.321 5.321 0 00-.721 2.683 5.33 5.33 0 002.372 4.439 5.323 5.323 0 01-2.416-.667v.067a5.335 5.335 0 004.279 5.23 5.336 5.336 0 01-2.409.092 5.34 5.34 0 004.983 3.705 10.699 10.699 0 01-6.625 2.284c-.43 0-.855-.025-1.273-.075a15.102 15.102 0 008.177 2.396c9.812 0 15.176-8.128 15.176-15.177 0-.231-.005-.461-.015-.69A10.855 10.855 0 0028 6.937z"></path>
                   </svg>
@@ -135,7 +135,7 @@ function ContactCard() {
             data-aos-duration="1000"
             className="col-span-1  "
           >
-            <div className=" border border-[#D7F205] text-center p-5 py-20">
+            <div className=" border border-[#DF2844] text-center p-5 py-20">
               <div className="text-left mx-10 text-2xl my-4">
                 Send A Message
               </div>
@@ -166,7 +166,7 @@ function ContactCard() {
                   rows={6}
                 />
               </form>
-              <button className="my-10 font-[Syne] md:my-0 mx-5 px-6 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+              <button className="my-10 font-[Syne] md:my-0 mx-5 px-6 py-4 text-bold hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                 SUBMIT BUTTON
               </button>
             </div>

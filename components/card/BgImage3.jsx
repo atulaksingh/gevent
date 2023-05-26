@@ -16,7 +16,7 @@ function BgImage3(props) {
         class=" bg-fixed w-full lg:h-96 bg-no-repeat bg-cover bg-left "
         style={{
           backgroundImage:
-            "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1676032137/people-at-the-concert-SKPN7UV_zzbbpd.webp)",
+            "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1680326893/331359564_726960882411809_5749394837003956188_n_ic78kw.jpg)",
         }}
       >
      
@@ -27,7 +27,7 @@ function BgImage3(props) {
             </h1>
             <div className="text-gray-300 font-semibold text-sm md:text-base lg:text-lg mx-3 sm:mx-10 lg:mx-24 py-6 font-[Syne]">{props.desc}</div>
             <div className="pb-20">
-              <button className="font-[Syne] p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+              <button className="font-[Syne] p-4 text-bold text-white hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                 {props.buttonTitle}
               </button>
             </div>

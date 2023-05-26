@@ -19,7 +19,7 @@ function About(props) {
           <div className="overflow-hidden">
             <div className="grid grid-cols-2 gap-20 lg:gap-2 mx-5 lg:mx-0 ">
               <div className="col-span-2 lg:col-span-1 pt-24 order-2 lg:order-1">
-                <div className="text-[#D7F205] font-bold tracking-[5px] font-[Syne]">
+                <div className="text-[#DF2844] font-bold tracking-[5px] font-[Syne]">
                   {props.title}
                 </div>
                 <h1 className="text-[28px] text-white leading-10 sm:leading-[60px] sm:text-[50px] md:text-[62px] font-medium font-[Syne] py-4">
@@ -36,7 +36,7 @@ function About(props) {
                     data-aos="fade-up"
                     data-aos-once="false"
                     data-aos-duration="3000"
-                    className="p-3 md:p-4 text-bold  hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]"
+                    className="p-3 md:p-4 text-bold  hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]"
                   >
                     {props.buttonTitle}
                   </button>
@@ -49,15 +49,15 @@ function About(props) {
                 className="col-span-2 lg:col-span-1 order-1 lg:order-2 box-content   m-auto "
               >
                 <div
-                  className="relative z-10 border border-[#D7F205]
-               h-[490px] w-[350px] sm:h-[550px] sm:w-[600px]
+                  className="relative z-10 border border-[#DF2844]
+               h-[400px] w-[350px] sm:h-[550px] sm:w-[600px]
                  md:h-[600px] md:w-[690px] lg:h-[600px] lg:w-[610px] sm:mx-12 lg:ml-10 box-content"
                 >
-                  <div className="relative top-5 sm:top-12 right-2 sm:right-12 h-[490px] w-[97%] sm:h-[600px] sm:w-[600px] md:h-[650px] md:w-[670px] lg:h-[650px] lg:w-[610px]  box-content">
+                  <div className="relative top-5 sm:top-12 right-2 sm:right-12 h-[380px] w-[97%] sm:h-[600px] sm:w-[600px] md:h-[650px] md:w-[670px] lg:h-full lg:w-full  box-content">
                     <Image
                       src={props.img}
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       className=" h-fit w-fit "
                       alt="about img"
                     />
@@ -71,7 +71,7 @@ function About(props) {
                     className="absolute  z-30 -bottom-16 -right-2  sm:bottom-20 sm:-right-5  bg-black text-white w-[300px] lg:w-[200px] border border-white py-5 "
                   >
                     <h1 className="flex justify-center">
-                      <span className="text-[50px] font-[Syne] text-[#D7F205]">
+                      <span className="text-[50px] font-[Syne] text-[#DF2844]">
                       {counterOn &&  <CountUp start={0} end={props.year} duration={2} delay={0} />}
                       
                       </span>{" "}

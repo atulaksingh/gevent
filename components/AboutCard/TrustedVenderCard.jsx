@@ -9,8 +9,8 @@ function TrustedVenderCard(props) {
         <div className="flex flex-col sm:flex-row">
         <div className="text-[40px] md:text-[55px]  font-[Syne] sm:text-right font-bold">{item.number}</div>
           <div className="mx-0 sm:mx-10">
-            <div className="text-lg md:text-2xl mt-3 font-bold text-[#D7F205] font-[Syne]">{item.title}</div>
-            <div className="text-base text-gray-300">
+            <div className="text-lg md:text-2xl mt-3 font-bold text-[#DF2844] font-[Syne]">{item.title}</div>
+            <div className="text-base text-gray-300 line-clamp-2">
               {item.desc}
             </div>
           </div>

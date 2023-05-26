@@ -22,15 +22,15 @@ function Plans() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-5">
-            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#DF2844] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl font-bold font-[Syne]">Wedding</div>
               <div className="py-3 text-lg text-gray-300 font-[Syne]">Start From</div>
-              <div className="flex justify-center text-[#D7F205]">
+              <div className="flex justify-center text-[#DF2844]">
                 <div className="text-[40px] font-bold">$</div>
                 <div className="text-[50px] font-bold ">149</div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -40,12 +40,12 @@ function Plans() {
                 ></path>
               </svg>
             </div>
-                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#D7F205]">
+                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#DF2844]">
                   5 Hours
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -60,7 +60,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -75,7 +75,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -90,7 +90,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -105,7 +105,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -120,20 +120,20 @@ function Plans() {
                 </div>
               </div>
               <div className="pt-5">
-                <button className=" px-8 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button className=" px-8 py-4 text-bold hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                   GET STARTED
                 </button>
               </div>
             </div>
-            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#DF2844] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl font-bold font-[Syne]">Wedding</div>
               <div className="py-3 text-lg text-gray-300 font-[Syne]">Start From</div>
-              <div className="flex justify-center text-[#D7F205]">
+              <div className="flex justify-center text-[#DF2844]">
                 <div className="text-[40px] font-bold">$</div>
                 <div className="text-[50px] font-bold ">149</div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -143,12 +143,12 @@ function Plans() {
                 ></path>
               </svg>
             </div>
-                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#D7F205]">
+                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#DF2844]">
                   5 Hours
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -163,7 +163,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -178,7 +178,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -193,7 +193,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -208,7 +208,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -223,20 +223,20 @@ function Plans() {
                 </div>
               </div>
               <div className="pt-5">
-                <button className=" px-8 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button className=" px-8 py-4 text-bold hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                   GET STARTED
                 </button>
               </div>
             </div>
-            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#DF2844] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl font-bold font-[Syne]">Wedding</div>
               <div className="py-3 text-lg text-gray-300 font-[Syne]">Start From</div>
-              <div className="flex justify-center text-[#D7F205]">
+              <div className="flex justify-center text-[#DF2844]">
                 <div className="text-[40px] font-bold">$</div>
                 <div className="text-[50px] font-bold ">149</div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -246,12 +246,12 @@ function Plans() {
                 ></path>
               </svg>
             </div>
-                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#D7F205]">
+                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#DF2844]">
                   5 Hours
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -266,7 +266,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -281,7 +281,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -296,7 +296,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -311,7 +311,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -326,20 +326,20 @@ function Plans() {
                 </div>
               </div>
               <div className="pt-5">
-                <button className=" px-8 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button className=" px-8 py-4 text-bold hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                   GET STARTED
                 </button>
               </div>
             </div>
-            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#D7F205] cursor-pointer border-white p-12 text-center">
+            <div data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000" className="col-span-1 border hover:border-[#DF2844] cursor-pointer border-white p-12 text-center">
               <div className="text-2xl font-bold font-[Syne]">Wedding</div>
               <div className="py-3 text-lg text-gray-300 font-[Syne]">Start From</div>
-              <div className="flex justify-center text-[#D7F205]">
+              <div className="flex justify-center text-[#DF2844]">
                 <div className="text-[40px] font-bold">$</div>
                 <div className="text-[50px] font-bold ">149</div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -349,12 +349,12 @@ function Plans() {
                 ></path>
               </svg>
             </div>
-                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#D7F205]">
+                <div className="my-auto font-medium text-base text-gray-100 font-[ Syne] cursor-pointer hover:text-[#DF2844]">
                   5 Hours
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -369,7 +369,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -384,7 +384,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -399,7 +399,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -414,7 +414,7 @@ function Plans() {
                 </div>
               </div>
               <div className="flex gap-2 py-1 justify-center">
-              <div className="w-3 h-3 stroke-[#D7F205]   my-auto  ">
+              <div className="w-3 h-3 stroke-[#DF2844]   my-auto  ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 13">
                 <path
                   strokeLinecap="round"
@@ -429,7 +429,7 @@ function Plans() {
                 </div>
               </div>
               <div className="pt-5">
-                <button className=" px-8 py-4 text-bold hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button className=" px-8 py-4 text-bold hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                   GET STARTED
                 </button>
               </div>

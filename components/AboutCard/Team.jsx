@@ -3,13 +3,13 @@ import Image from "next/image";
 import TeamCard from "components/card/TeamCard";
 const teamData = [
   {
-    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675836966/portrait-man-wearing-glasses-DCG3R79_bwpwwf.jpg",
+    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680786442/79305248_2367379976700760_2551490163310067712_n_fjaiiy.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675836966/portrait-man-wearing-glasses-DCG3R79_bwpwwf.jpg",
+    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680786553/67479451_2119724211466339_8501046099165839360_n_clqrg2.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675836966/portrait-man-wearing-glasses-DCG3R79_bwpwwf.jpg",
+    img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680526558/87022114_2556896077749148_4166815878593118208_n_jzewjn.jpg",
   },
 ];
 function Team() {
@@ -25,10 +25,7 @@ function Team() {
               Meet Our Expert
             </h1>
             <div className="text-lg text-gray-300 font-semibold py-3">
-              Cras porttitor urna eu metus efficitur, a tempus ligula vehicula.
-              Donec ornare pharetra metus nec vehicula. Etiam mauris dolor,
-              interdum id vestibulum et pharetra ac libero. Etiam vestibulum in
-              mi sit amet.
+            Panache Medias impressive portfolio showcases their expertise in creating unforgettable events, collaborating with renowned personalities and delivering top-notch services in the entertainment industry.
             </div>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 pb-20">
@@ -38,7 +35,7 @@ function Team() {
                 data-aos="fade-up"  data-aos-once="false"
                 data-aos-duration="1000"
                 key={index}
-                className=" col-span-1 border border-[#D7F205] mx-8 sm:mx-10 lg:mx-0"
+                className=" col-span-1 border border-[#DF2844] mx-8 sm:mx-10 lg:mx-0"
               >
                 <div className="relative right-4 md:right-7 top-5 md:top-10 h-96 w-full border border-white">
                   <Image
@@ -56,7 +53,7 @@ function Team() {
           <div className="py-10 text-center">
             <button
              
-              className=" p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]"
+              className=" p-4 text-bold text-white hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]"
             >
               VIEW ALL TEAM
             </button>

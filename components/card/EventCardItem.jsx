@@ -19,7 +19,7 @@ function EventCardItem(props) {
                   <div className="md:text-xl text-white font-[Syne] font-bold py-2">
                     {item.cardTitle}
                   </div>
-                  <div className="text-sm md:text-base  font-[Syne] text-gray-300 font-normal ">
+                  <div className="text-sm md:text-base  font-[Syne] text-gray-300 font-normal line-clamp-2">
                     {item.cardDesc}
                   </div>
                 </div>

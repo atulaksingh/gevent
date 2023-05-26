@@ -10,31 +10,29 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import "./styles.css";
-import { useInView } from 'react-hook-inview'
+import { useInView } from "react-hook-inview";
 // import required modules
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper";
-import { easeInOut, motion,  } from "framer-motion";
 import { InfoBox } from "@react-google-maps/api";
+import { motion, useAnimationControls } from "framer-motion";
 function Hero() {
-  const [ref, inView] = useInView()
-  // const { ref, inView } = useInView();
-  const animation = useAnimation();
+  const controls = useAnimationControls();
   useEffect(() => {
-    if (inView) {
-      animation.start({
-        x: 200,
-        scale: 1.5,
-        transition:{ duration: 8 }
-      });
-    }
-    console.log("use effect hook inView =", inView);
-  }, [inView]);
+    controls.start({
+      // x: 200,
+      // scale: 1.3,
+      // initial: 0,
+      // transition: { duration: 8, repeat: Infinity },
+
+      // transitionEnd: { display: "none" },
+    });
+  }, []);
   return (
     <>
-      <div className=" text-white bg-black">
-        <div className="relative  lg:h-screen overflow-hidden  w-full overflow-x-hidden z-0">
+      <div className=" text-white bg-black mt-10">
+        <div className="relative  overflow-hidden  w-full overflow-x-hidden z-0">
           {/* <Image
             src={
               "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675511612/party-M8J3WXM_rgal2q.webp"
@@ -55,18 +53,34 @@ function Hero() {
             modules={[EffectFade, Navigation, Pagination, Autoplay]}
             className="mySwiper"
           >
-            <SwiperSlide >
+            <SwiperSlide>
               <motion.div
+            
                 animate={{ x: 200, scale: 1.5 }}
-                transition={{ duration: 8 ,repeat:Infinity, } }
-                // initial={{width:1440 }}
-                className="owl-img"
+                initial={{x:0 ,scale:0.9}}
+                transition={{ duration: 9, delay: 0, repeat: Infinity }}
+                className="owl-img sm:block hidden"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089313/02_1_fxhwlf.jpg"
                   alt="img"
-                  className="Dj"
+                  className="Dj "
+                />
+              
+              </motion.div>
+              <motion.div
+                animate={{ x: 50, scale: 1.5 }}
+                // initial={{x:0 ,s}}
+                transition={{ duration: 9, delay: 0, repeat: Infinity }}
+                className="owl-img sm:hidden block"
+                style={{ opacity: 1, visibility: "inherit" }}
+              >
+               
+                <img
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089313/02_1_fxhwlf.jpg"
+                  alt="img"
+                  className="jd w-full h-40"
                 />
               </motion.div>
               <div
@@ -75,19 +89,28 @@ function Hero() {
                   // inset: "auto auto 10% 10%",
                   // visibility: "inherit",
                   // opacity: 1,
-                  transform: "translate3d(17.9179px, 0px, 1.00804415px  )",
+                  transform: "translate3d(27.9179px, 0px, 1.00804415px  )",
                 }}
               >
                 <motion.div
-                 animate={{ x: 150, }}
-                transition={{ duration: 4 ,repeat: Infinity, } }
-                 className="caption" data-pos="bottom-left">
+                  animate={{ x: 150 }}
+                  transition={{ duration: 4, repeat: Infinity }}
+                  className="caption sm:block hidden"
+                  data-pos="bottom-left"
+                >
                   <span className="sub-title ">
                     Celebrate any event with us
                   </span>
 
                   <span className="title">we are here for your happiness</span>
                 </motion.div>
+                <div className="caption sm:hidden block" data-pos="bottom-left">
+                  <span className="sub-title ">
+                    Celebrate any event with us
+                  </span>
+
+                  <span className="title">we are here for your happiness</span>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -100,54 +123,70 @@ function Hero() {
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089314/04_xckzgx.jpg"
                   alt="img"
-                  className="Dj"
+                  className="Dj  sm:block hidden"
+                />
+                <img
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089314/04_xckzgx.jpg"
+                  alt="img"
+                  className="jd sm:hidden block"
                 />
               </motion.div>
               <div
                 className="owl-caption"
                 style={{
-                  inset: "auto auto 10% 10%",
-                  visibility: "inherit",
-                  opacity: 1,
-                  transform: "translate3d(57.9179px, 0px, 0.00804415px)",
+                  // inset: "auto auto 10% 10%",
+                  // visibility: "inherit",
+                  // opacity: 1,
+                  transform: "translate3d(27.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <motion.div 
-                 animate={{ x: 150, }}
-                transition={{ duration: 4 ,delay: 2,repeat: Infinity, } }
-                className="caption" data-pos="bottom-left">
+                <motion.div
+                  animate={{ x: 150 }}
+                  transition={{ duration: 4, delay: 2, repeat: Infinity }}
+                  className="caption sm:block hidden"
+                  data-pos="bottom-left"
+                >
                   <span className="sub-title ">One of the leading</span>
 
                   <span className="title">Event Company of India</span>
                 </motion.div>
+                <div className="caption sm:hidden block" data-pos="">
+                  <span className="sub-title ">One of the leading</span>
+
+                  <span className="title">Event Company of India</span>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
                 animate={{ y: -10, scale: 1.5 }}
-                transition={{ duration: 9, delay: 5.5 ,repeat: Infinity , }}
+                transition={{ duration: 9, delay: 5.5, repeat: Infinity }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089317/05_twr5sf.jpg"
                   alt="img"
-                  className="Dj"
+                  className="Dj sm:block hidden"
+                />
+                <img
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089317/05_twr5sf.jpg"
+                  alt="img"
+                  className="jd sm:hidden block"
                 />
               </motion.div>
               <div
                 className="owl-caption"
                 style={{
-                  inset: "auto auto 10% 10%",
-                  visibility: "inherit",
-                  opacity: 1,
-                  transform: "translate3d(57.9179px, 0px, 0.00804415px)",
+                  transform: "translate3d(27.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <motion.div 
-                 animate={{ x: 150, }}
-                transition={{ duration: 4 ,delay: 5.5,repeat: Infinity, } }
-                className="caption" data-pos="bottom-left">
+                <motion.div
+                  animate={{ x: 150 }}
+                  transition={{ duration: 4, delay: 5.5, repeat: Infinity }}
+                  className="caption sm:block hidden"
+                  data-pos="bottom-left"
+                >
                   <span className="sub-title ">
                     First Time Ghulam ALi & Son
                   </span>
@@ -156,41 +195,63 @@ function Hero() {
                     performing together for EK Ehsaas
                   </span>
                 </motion.div>
+                <div className="caption sm:hidden block" data-pos="bottom-left">
+                  <span className="sub-title ">
+                    First Time Ghulam ALi & Son
+                  </span>
+
+                  <span className="title">
+                    performing together for EK Ehsaas
+                  </span>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <motion.div
                 animate={{ y: 48, scale: 1 }}
                 initial={{ scale: 1.5 }}
-                transition={{ duration: 9, delay: 8 ,repeat: Infinity , ease:"easeOut" }}
+                transition={{
+                  duration: 9,
+                  delay: 8,
+                  repeat: Infinity,
+                  ease: "easeOut",
+                }}
                 className="owl-img"
                 style={{ opacity: 1, visibility: "inherit" }}
               >
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089316/06_tbyhq2.jpg"
                   alt="img"
-                  className="Dj"
-               
+                  className="Dj sm:block hidden"
+                />
+                    <img
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089316/06_tbyhq2.jpg"
+                  alt="img"
+                  className="jd sm:hidden block"
                 />
               </motion.div>
               <div
                 className="owl-caption"
                 style={{
-                  inset: "auto auto 10% 10%",
-                  visibility: "inherit",
-                  opacity: 1,
-                  transform: "translate3d(57.9179px, 0px, 0.00804415px)",
+                  transform: "translate3d(27.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <motion.div 
-                    animate={{ x: 20,  }}
-                initial={{ x:700}}
-                transition={{ duration: 7, delay: 8 ,repeat: Infinity ,  }}
-                className="caption" data-pos="bottom-left">
+                <motion.div
+                  animate={{ x: 20 }}
+                  initial={{ x: 700 }}
+                  transition={{ duration: 7, delay: 8, repeat: Infinity }}
+                  className="caption sm:block hidden"
+                  data-pos="bottom-left"
+                >
                   <span className="sub-title">Main Tera Hero</span>
 
                   <span className="title">Promotions</span>
                 </motion.div>
+                <div className="caption sm:hidden block" data-pos="bottom-left">
+                  <span className="sub-title">Main Tera Hero</span>
+
+                  <span className="title">Promotions</span>
+                </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -204,34 +265,36 @@ function Hero() {
                 <img
                   src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089315/01_1_k7oaba.jpg"
                   alt="img"
-                  className="Dj"
-                  // style={{
-                  //   transform: "matrix(1.05577, 0, 0, 1.05577, 0, 0)",
-                  //   width: "1440px",
-                  //   height: "auto",
-                  //   top: "-307px",
-                  //   left: "0px",
-                  //   transformOrigin: "23% 14%",
-                  // }}
+                  className="Dj sm:block hidden"
                 />
+                        <img
+                  src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1680089315/01_1_k7oaba.jpg"
+                  alt="img"
+                  className="jd sm:hidden block"
+                />
+                
               </motion.div>
               <div
                 className="owl-caption"
                 style={{
-                  inset: "auto auto 10% 10%",
-                  visibility: "inherit",
-                  opacity: 1,
-                  transform: "translate3d(57.9179px, 0px, 0.00804415px)",
+                  transform: "translate3d(27.9179px, 0px, 0.00804415px)",
                 }}
               >
-                <motion.div 
-                 animate={{ x: 200, }}
-                transition={{ duration: 8 ,delay: 8,repeat: Infinity, } }
-                className="caption" data-pos="bottom-left">
+                <motion.div
+                  animate={{ x: 200 }}
+                  transition={{ duration: 8, delay: 8, repeat: Infinity }}
+                  className="caption sm:block hidden"
+                  data-pos="bottom-left"
+                >
                   <span className="sub-title">Brand Activation</span>
 
                   <span className="title">& Promotional Events</span>
                 </motion.div>
+                <div className="caption sm:hidden block" data-pos="bottom-left">
+                  <span className="sub-title">Brand Activation</span>
+
+                  <span className="title">& Promotional Events</span>
+                </div>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -315,7 +378,7 @@ function Hero() {
                 Mauris neque enim.
               </div>
               <div className="visible md:hidden py-5 sm:py-10 text-center ">
-                <button className=" p-4 text-bold text-white hover:text-[#D7F205] tracking-[2px] border border-[#D7F205]">
+                <button className=" p-4 text-bold text-white hover:text-[#DF2844] tracking-[2px] border border-[#DF2844]">
                   OUR SERVICE
                 </button>
               </div>

@@ -10,7 +10,7 @@ function test() {
             <img className="group-hover:blur-[2px] transition-all duration-200 ease-out" src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1675836966/portrait-man-wearing-glasses-DCG3R79_bwpwwf.jpg" alt="" />
             <div className="inset-0 absolute p-5 flex flex-col justify-center align-middle bg-black/60 opacity-0 scale-110 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200 ease-out">
               <h1 className="text-2xl md:text-3xl text-white font-bold">Office Masquerade Party</h1>
-              <button className="text-white border border-[#D7F205] w-40 p-3 uppercase mx-auto mt-5">Read More</button>
+              <button className="text-white border border-[#DF2844] w-40 p-3 uppercase mx-auto mt-5">Read More</button>
             </div>
           </div>
         </div>

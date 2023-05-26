@@ -25,7 +25,7 @@ function SmNavbar(props) {
               <div className="relative h-20 w-52  z-30 -top-20 ">
                 <Image
                   src={
-                    "https://res.cloudinary.com/dt0j68vdr/image/upload/v1675750518/Gevent-Logo_abdaie.png"
+                    "https://res.cloudinary.com/dt0j68vdr/image/upload/v1676439624/logo-mini_3_kb6qrm.png"
                   }
                   fill="layout"
                   objectFit="contain"

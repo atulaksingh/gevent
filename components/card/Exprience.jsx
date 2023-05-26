@@ -12,14 +12,15 @@ function Exprience(props) {
         class="bg-fixed w-full lg:h-92 bg-no-repeat bg-cover bg-top "
         style={{
           backgroundImage:
-            "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1675667922/concert-audience-PG2VFZFa_qxrj6o.webp)",
+            "url(https://res.cloudinary.com/dt0j68vdr/image/upload/v1680328220/325896687_1344318806392330_3201923214306674348_n_s6g7eu.jpg)",
         }}
       >
-        <div className="bg-gradient-to-b from-[#bfcc58]">
-          <div className=" flex flex-wrap gap-10 justify-center py-20 font-[Syne]">
+                      {/* color=""#bfcc58 */}
+        <div className="bg-gradient-to-b from-[#984552] sm:bg-gradient-to-b sm:from-[#DF2844]">
+          <div className=" flex flex-wrap gap-10 justify-center  py-28 font-[Syne]">
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-[Syne]">
+                <span className="text-[50px] text-[#DF2844] font-[Syne]">
                 {counterOn &&  <CountUp start={0} end={200} duration={2} delay={0} />}
                
                 </span>{" "}
@@ -31,7 +32,7 @@ function Exprience(props) {
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={1000} duration={2} delay={0} />}</span>{" "}
+                <span className="text-[50px] text-[#DF2844] font-bold"> {counterOn &&  <CountUp start={0} end={1000} duration={2} delay={0} />}</span>{" "}
                 <span className="font-bold">+</span>
               </h1>
               <div className="text-lg text-center font-bold">
@@ -40,7 +41,7 @@ function Exprience(props) {
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold">
+                <span className="text-[50px] text-[#DF2844] font-bold">
                 {counterOn &&  <CountUp start={0} end={10} duration={2} delay={0} />}
                 </span>{" "}
                 <span className="font-bold">+</span>
@@ -51,7 +52,7 @@ function Exprience(props) {
             </div>
             <div className=" text-white w-[290px] border-2 border-white py-10">
               <h1 className="flex  justify-center">
-                <span className="text-[50px] text-[#D7F205] font-bold"> {counterOn &&  <CountUp start={0} end={50} duration={2} delay={0} />}</span>{" "}
+                <span className="text-[50px] text-[#DF2844] font-bold"> {counterOn &&  <CountUp start={0} end={50} duration={2} delay={0} />}</span>{" "}
                 <span className="font-bold">+</span>
               </h1>
               <div className="text-lg text-center font-bold">

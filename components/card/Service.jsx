@@ -7,7 +7,7 @@ function Service(props) {
       <div className="container m-auto">
         <div>
           <div className="py-10 text-center">
-            <div className="text-[#ddf242] font-[Syne] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
+            <div className="text-[#DF2844] font-[Syne] mb-5 m-auto  sm:text-lg font-bold md:space-x-20 md:tracking-widest">
               {props.title}
             </div>
             <h1 className="text-[2.2rem] font-[Syne] leading-[40px] sm:text-[3rem] md:text-[4rem] lg:text-[3.8rem] sm:leading-[65px] md:leading-[80px] lg:leading-[70px] font-[600] mx-1 text-white ">
@@ -20,7 +20,7 @@ function Service(props) {
           <div className="grid grid-cols-3 gap-10">
           {
             props.card.map((item,index)=>(
-              <div key={index} className="col-span-3 lg:col-span-1 mx-5 sm:mx-0"   data-aos="fade-up"  data-aos-once="false"
+              <div key={index} className="col-span-3  lg:col-span-1 mx-5 sm:mx-0"   data-aos="fade-up"  data-aos-once="false"
      data-aos-duration="1000">
             <ServiceIconCard
              icon={
@@ -39,7 +39,7 @@ function Service(props) {
              icon={
                     <FaUserFriends
                       size={60}
-                      color="#D7F205"
+                      color="#DF2844"
                     />
                   }
                   title="Birthday Partyt"
@@ -52,7 +52,7 @@ function Service(props) {
              icon={
                     <FaUserFriends
                       size={60}
-                      color="#D7F205"
+                      color="#DF2844"
                     />
                   }
                   title="Birthday Partyt"
@@ -65,7 +65,7 @@ function Service(props) {
              icon={
                     <FaUserFriends
                       size={60}
-                      color="#D7F205"
+                      color="#DF2844"
                     />
                   }
                   title="Birthday Partyt"
@@ -78,7 +78,7 @@ function Service(props) {
              icon={
                     <FaUserFriends
                       size={60}
-                      color="#D7F205"
+                      color="#DF2844"
                     />
                   }
                   title="Birthday Partyt"
@@ -91,7 +91,7 @@ function Service(props) {
              icon={
                     <FaUserFriends
                       size={60}
-                      color="#D7F205"
+                      color="#DF2844"
                     />
                   }
                   title="Birthday Partyt"
@@ -106,7 +106,7 @@ function Service(props) {
               <div className="w-[400px] p-14 border border-white justify-center py-5">
                 <div className=" ">
                   <div className="py-3 ">
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="font-bold text-2xl py-2 ">Birthday Party</div>
                   <div className="text-gray-400 text-lg py-2 ">
@@ -114,10 +114,10 @@ function Service(props) {
                     nunc. Mauris dignissim libero elementum egestas.
                   </div>
                   <div className="flex py-7">
-                    <div className="my-auto text-bold hover:text-[#D7F205] tracking-[2px]">
+                    <div className="my-auto text-bold hover:text-[#DF2844] tracking-[2px]">
                       READ MORE
                     </div>
-                    <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                    <div className="h-8 w-8 stroke-[#DF2844] my-auto">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="ionicon"
@@ -139,7 +139,7 @@ function Service(props) {
             <div className="w-[400px] p-14 border border-white justify-center py-5">
               <div className=" ">
                 <div className="py-3 ">
-                  <FaUserFriends size={60} color="#D7F205" />
+                  <FaUserFriends size={60} color="#DF2844" />
                 </div>
                 <div className="font-bold text-2xl py-2 ">Birthday Party</div>
                 <div className="text-gray-400 text-lg py-2 ">
@@ -147,10 +147,10 @@ function Service(props) {
                   Mauris dignissim libero elementum egestas.
                 </div>
                 <div className="flex py-7">
-                  <div className="my-auto text-bold hover:text-[#D7F205] tracking-[2px]">
+                  <div className="my-auto text-bold hover:text-[#DF2844] tracking-[2px]">
                     READ MORE
                   </div>
-                  <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                  <div className="h-8 w-8 stroke-[#DF2844] my-auto">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="ionicon"
@@ -172,7 +172,7 @@ function Service(props) {
               <div className="w-[400px] p-14 border border-white justify-center py-5">
                 <div className=" ">
                   <div className="py-3 ">
-                    <FaUserFriends size={60} color="#D7F205" />
+                    <FaUserFriends size={60} color="#DF2844" />
                   </div>
                   <div className="font-bold text-2xl py-2 ">Birthday Party</div>
                   <div className="text-gray-400 text-lg py-2 ">
@@ -180,10 +180,10 @@ function Service(props) {
                     nunc. Mauris dignissim libero elementum egestas.
                   </div>
                   <div className="flex py-7">
-                    <div className="my-auto text-bold hover:text-[#D7F205] tracking-[2px]">
+                    <div className="my-auto text-bold hover:text-[#DF2844] tracking-[2px]">
                       READ MORE
                     </div>
-                    <div className="h-8 w-8 stroke-[#D7F205] my-auto">
+                    <div className="h-8 w-8 stroke-[#DF2844] my-auto">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="ionicon"

@@ -61,13 +61,13 @@ function Header() {
               {headData.map((item, index) => (
                 <div
                   key={index}
-                  className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205] font-[Syne]"
+                  className="hidden lg:block text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#DF2844] font-[Syne]"
                 >
                   <Link href={item.link}>{item.name}</Link>
                 </div>
               ))}
-              <div className=" visible lg:hidden text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#D7F205] my-auto" onClick={isOpen}>
-                <div className="relative h-12 w-12 fill-[#D7F205] stroke-[#D7F205]">
+              <div className=" visible lg:hidden text-base transition ease-in-out delay-100 font-bold cursor-pointer hover:text-[#DF2844] my-auto" onClick={isOpen}>
+                <div className="relative h-12 w-12 fill-[#DF2844] stroke-[#DF2844]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ionicon"
